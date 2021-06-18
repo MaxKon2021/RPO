@@ -1,30 +1,30 @@
 The target system is: Android - 1 - i686
 The host system is: Linux - 5.8.0-53-generic - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f33c3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f33c3.dir/build.make CMakeFiles/cmTC_f33c3.dir/build
-make[1]: вход в каталог «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_f33c3.dir/testCCompiler.c.o
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_f33c3.dir/testCCompiler.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_f33c3
-/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f33c3.dir/link.txt --verbose=1
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_f33c3.dir/testCCompiler.c.o  -o cmTC_f33c3 -latomic -lm 
-make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_e86ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e86ad.dir/build.make CMakeFiles/cmTC_e86ad.dir/build
+make[1]: вход в каталог «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e86ad.dir/testCCompiler.c.o
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_e86ad.dir/testCCompiler.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e86ad
+/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e86ad.dir/link.txt --verbose=1
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_e86ad.dir/testCCompiler.c.o  -o cmTC_e86ad -latomic -lm 
+make[1]: выход из каталога «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6c98f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6c98f.dir/build.make CMakeFiles/cmTC_6c98f.dir/build
-make[1]: вход в каталог «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_6c98f.dir/CMakeCCompilerABI.c.o
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_6c98f.dir/CMakeCCompilerABI.c.o   -c /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_6c98f
-/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c98f.dir/link.txt --verbose=1
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections  -v CMakeFiles/cmTC_6c98f.dir/CMakeCCompilerABI.c.o  -o cmTC_6c98f 
+Run Build Command:"/usr/bin/make" "cmTC_02f2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02f2e.dir/build.make CMakeFiles/cmTC_02f2e.dir/build
+make[1]: вход в каталог «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_02f2e.dir/CMakeCCompilerABI.c.o
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_02f2e.dir/CMakeCCompilerABI.c.o   -c /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_02f2e
+/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02f2e.dir/link.txt --verbose=1
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections  -v CMakeFiles/cmTC_02f2e.dir/CMakeCCompilerABI.c.o  -o cmTC_02f2e 
 Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
 Target: i686-none-linux-android16
 Thread model: posix
@@ -34,22 +34,22 @@ Found candidate GCC installation: /home/anastasia/Android/Sdk/ndk-bundle/toolcha
 Selected GCC installation: /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_6c98f /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/lib/linux/i386 -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16 -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_6c98f.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o
-make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+ "/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_02f2e /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/lib/linux/i386 -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16 -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_02f2e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o
+make[1]: выход из каталога «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6c98f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6c98f.dir/build.make CMakeFiles/cmTC_6c98f.dir/build]
-  ignore line: [make[1]: вход в каталог «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»]
-  ignore line: [Building C object CMakeFiles/cmTC_6c98f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_6c98f.dir/CMakeCCompilerABI.c.o   -c /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_6c98f]
-  ignore line: [/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c98f.dir/link.txt --verbose=1]
-  ignore line: [/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections  -v CMakeFiles/cmTC_6c98f.dir/CMakeCCompilerABI.c.o  -o cmTC_6c98f ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_02f2e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_02f2e.dir/build.make CMakeFiles/cmTC_02f2e.dir/build]
+  ignore line: [make[1]: вход в каталог «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»]
+  ignore line: [Building C object CMakeFiles/cmTC_02f2e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_02f2e.dir/CMakeCCompilerABI.c.o   -c /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_02f2e]
+  ignore line: [/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02f2e.dir/link.txt --verbose=1]
+  ignore line: [/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections  -v CMakeFiles/cmTC_02f2e.dir/CMakeCCompilerABI.c.o  -o cmTC_02f2e ]
   ignore line: [Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)]
   ignore line: [Target: i686-none-linux-android16]
   ignore line: [Thread model: posix]
@@ -61,7 +61,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_6c98f /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/lib/linux/i386 -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16 -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_6c98f.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o]
+  link line: [ "/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_02f2e /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/lib/linux/i386 -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16 -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_02f2e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o]
     arg [/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/ld] ==> ignore
     arg [--sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -78,7 +78,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6c98f] ==> ignore
+    arg [cmTC_02f2e] ==> ignore
     arg [/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/lib/linux/i386] ==> dir [/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/lib/linux/i386]
     arg [-L/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -97,7 +97,7 @@ Parsed C implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_6c98f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_02f2e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -118,17 +118,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_84c74/fast"
-/usr/bin/make -f CMakeFiles/cmTC_84c74.dir/build.make CMakeFiles/cmTC_84c74.dir/build
-make[1]: вход в каталог «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_84c74.dir/feature_tests.c.o
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -std=c11 -o CMakeFiles/cmTC_84c74.dir/feature_tests.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/feature_tests.c
-Linking C executable cmTC_84c74
-/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84c74.dir/link.txt --verbose=1
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_84c74.dir/feature_tests.c.o  -o cmTC_84c74 -latomic -lm 
-make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_7d2af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d2af.dir/build.make CMakeFiles/cmTC_7d2af.dir/build
+make[1]: вход в каталог «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7d2af.dir/feature_tests.c.o
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -std=c11 -o CMakeFiles/cmTC_7d2af.dir/feature_tests.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7d2af
+/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d2af.dir/link.txt --verbose=1
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_7d2af.dir/feature_tests.c.o  -o cmTC_7d2af -latomic -lm 
+make[1]: выход из каталога «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -138,17 +138,17 @@ make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtl
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2a3b8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2a3b8.dir/build.make CMakeFiles/cmTC_2a3b8.dir/build
-make[1]: вход в каталог «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_2a3b8.dir/feature_tests.c.o
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -std=c99 -o CMakeFiles/cmTC_2a3b8.dir/feature_tests.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2a3b8
-/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a3b8.dir/link.txt --verbose=1
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_2a3b8.dir/feature_tests.c.o  -o cmTC_2a3b8 -latomic -lm 
-make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_4cf69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cf69.dir/build.make CMakeFiles/cmTC_4cf69.dir/build
+make[1]: вход в каталог «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4cf69.dir/feature_tests.c.o
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -std=c99 -o CMakeFiles/cmTC_4cf69.dir/feature_tests.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4cf69
+/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cf69.dir/link.txt --verbose=1
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_4cf69.dir/feature_tests.c.o  -o cmTC_4cf69 -latomic -lm 
+make[1]: выход из каталога «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -158,17 +158,17 @@ make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtl
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7bc6e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7bc6e.dir/build.make CMakeFiles/cmTC_7bc6e.dir/build
-make[1]: вход в каталог «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_7bc6e.dir/feature_tests.c.o
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -std=c90 -o CMakeFiles/cmTC_7bc6e.dir/feature_tests.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7bc6e
-/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bc6e.dir/link.txt --verbose=1
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_7bc6e.dir/feature_tests.c.o  -o cmTC_7bc6e -latomic -lm 
-make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_16c00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16c00.dir/build.make CMakeFiles/cmTC_16c00.dir/build
+make[1]: вход в каталог «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_16c00.dir/feature_tests.c.o
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE   -std=c90 -o CMakeFiles/cmTC_16c00.dir/feature_tests.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/feature_tests.c
+Linking C executable cmTC_16c00
+/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16c00.dir/link.txt --verbose=1
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_16c00.dir/feature_tests.c.o  -o cmTC_16c00 -latomic -lm 
+make[1]: выход из каталога «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -176,33 +176,33 @@ make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtl
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f4ad2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f4ad2.dir/build.make CMakeFiles/cmTC_f4ad2.dir/build
-make[1]: вход в каталог «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_f4ad2.dir/CheckIncludeFile.c.o
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wall -Wextra -Wwrite-strings -Wpointer-arith -Wimplicit-fallthrough -Wshadow -Wvla -Wformat=2 -Wno-format-nonliteral -Werror  -fPIE   -o CMakeFiles/cmTC_f4ad2.dir/CheckIncludeFile.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f4ad2
-/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4ad2.dir/link.txt --verbose=1
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wall -Wextra -Wwrite-strings -Wpointer-arith -Wimplicit-fallthrough -Wshadow -Wvla -Wformat=2 -Wno-format-nonliteral -Werror   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_f4ad2.dir/CheckIncludeFile.c.o  -o cmTC_f4ad2 -latomic -lm 
-make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_17421/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17421.dir/build.make CMakeFiles/cmTC_17421.dir/build
+make[1]: вход в каталог «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_17421.dir/CheckIncludeFile.c.o
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wall -Wextra -Wwrite-strings -Wpointer-arith -Wimplicit-fallthrough -Wshadow -Wvla -Wformat=2 -Wno-format-nonliteral -Werror  -fPIE   -o CMakeFiles/cmTC_17421.dir/CheckIncludeFile.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_17421
+/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17421.dir/link.txt --verbose=1
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wall -Wextra -Wwrite-strings -Wpointer-arith -Wimplicit-fallthrough -Wshadow -Wvla -Wformat=2 -Wno-format-nonliteral -Werror   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_17421.dir/CheckIncludeFile.c.o  -o cmTC_17421 -latomic -lm 
+make[1]: выход из каталога «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
 
 
 Determining if the pthread_create exist passed with the following output:
-Change Dir: /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69eda/fast"
-/usr/bin/make -f CMakeFiles/cmTC_69eda.dir/build.make CMakeFiles/cmTC_69eda.dir/build
-make[1]: вход в каталог «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_69eda.dir/CheckSymbolExists.c.o
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wall -Wextra -Wwrite-strings -Wpointer-arith -Wimplicit-fallthrough -Wshadow -Wvla -Wformat=2 -Wno-format-nonliteral -Werror  -fPIE   -o CMakeFiles/cmTC_69eda.dir/CheckSymbolExists.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_69eda
-/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69eda.dir/link.txt --verbose=1
-/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wall -Wextra -Wwrite-strings -Wpointer-arith -Wimplicit-fallthrough -Wshadow -Wvla -Wformat=2 -Wno-format-nonliteral -Werror   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_69eda.dir/CheckSymbolExists.c.o  -o cmTC_69eda -latomic -lm 
-make[1]: выход из каталога «/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_7e55f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e55f.dir/build.make CMakeFiles/cmTC_7e55f.dir/build
+make[1]: вход в каталог «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7e55f.dir/CheckSymbolExists.c.o
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wall -Wextra -Wwrite-strings -Wpointer-arith -Wimplicit-fallthrough -Wshadow -Wvla -Wformat=2 -Wno-format-nonliteral -Werror  -fPIE   -o CMakeFiles/cmTC_7e55f.dir/CheckSymbolExists.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7e55f
+/home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e55f.dir/link.txt --verbose=1
+/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wall -Wextra -Wwrite-strings -Wpointer-arith -Wimplicit-fallthrough -Wshadow -Wvla -Wformat=2 -Wno-format-nonliteral -Werror   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_7e55f.dir/CheckSymbolExists.c.o  -o cmTC_7e55f -latomic -lm 
+make[1]: выход из каталога «/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp»
 
-File /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 

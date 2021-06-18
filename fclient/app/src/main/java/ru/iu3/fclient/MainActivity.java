@@ -3,6 +3,7 @@ package ru.iu3.fclient;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
@@ -32,7 +33,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void onButtonClick(View v)
     {
-       Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
+      // Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
+        Intent it = new Intent(this,PinpadActivity.class);
+        startActivityForResult(it, 0);
+
     }
 
 
@@ -81,7 +85,16 @@ public class MainActivity extends AppCompatActivity {
             hex = null;        }
         return hex;
     }
-
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 0) {
+            if (resultCode == RESULT_OK || data != null) {
+                String pin = data.getStringExtra("pin");
+                Toast.makeText(this, pin, Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
 
     /**
      * A native method that is implemented by the 'native-lib' native library,

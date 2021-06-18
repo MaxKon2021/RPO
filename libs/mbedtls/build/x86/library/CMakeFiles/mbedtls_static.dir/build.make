@@ -43,10 +43,10 @@ RM = /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86
 
 # Include any dependencies generated for this target.
 include library/CMakeFiles/mbedtls_static.dir/depend.make
@@ -58,17 +58,17 @@ include library/CMakeFiles/mbedtls_static.dir/progress.make
 include library/CMakeFiles/mbedtls_static.dir/flags.make
 
 library/CMakeFiles/mbedtls_static.dir/debug.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/debug.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object library/CMakeFiles/mbedtls_static.dir/debug.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/debug.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/debug.c
+library/CMakeFiles/mbedtls_static.dir/debug.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object library/CMakeFiles/mbedtls_static.dir/debug.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/debug.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/debug.c
 
 library/CMakeFiles/mbedtls_static.dir/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/debug.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/debug.c > CMakeFiles/mbedtls_static.dir/debug.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/debug.c > CMakeFiles/mbedtls_static.dir/debug.c.i
 
 library/CMakeFiles/mbedtls_static.dir/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/debug.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/debug.c -o CMakeFiles/mbedtls_static.dir/debug.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/debug.c -o CMakeFiles/mbedtls_static.dir/debug.c.s
 
 library/CMakeFiles/mbedtls_static.dir/debug.c.o.requires:
 
@@ -82,17 +82,17 @@ library/CMakeFiles/mbedtls_static.dir/debug.c.o.provides.build: library/CMakeFil
 
 
 library/CMakeFiles/mbedtls_static.dir/net_sockets.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/net_sockets.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/net_sockets.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object library/CMakeFiles/mbedtls_static.dir/net_sockets.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/net_sockets.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/net_sockets.c
+library/CMakeFiles/mbedtls_static.dir/net_sockets.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/net_sockets.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object library/CMakeFiles/mbedtls_static.dir/net_sockets.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/net_sockets.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/net_sockets.c
 
 library/CMakeFiles/mbedtls_static.dir/net_sockets.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/net_sockets.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/net_sockets.c > CMakeFiles/mbedtls_static.dir/net_sockets.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/net_sockets.c > CMakeFiles/mbedtls_static.dir/net_sockets.c.i
 
 library/CMakeFiles/mbedtls_static.dir/net_sockets.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/net_sockets.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/net_sockets.c -o CMakeFiles/mbedtls_static.dir/net_sockets.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/net_sockets.c -o CMakeFiles/mbedtls_static.dir/net_sockets.c.s
 
 library/CMakeFiles/mbedtls_static.dir/net_sockets.c.o.requires:
 
@@ -106,17 +106,17 @@ library/CMakeFiles/mbedtls_static.dir/net_sockets.c.o.provides.build: library/CM
 
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_cache.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cache.c
+library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_cache.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cache.c
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/ssl_cache.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cache.c > CMakeFiles/mbedtls_static.dir/ssl_cache.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cache.c > CMakeFiles/mbedtls_static.dir/ssl_cache.c.i
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/ssl_cache.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cache.c -o CMakeFiles/mbedtls_static.dir/ssl_cache.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cache.c -o CMakeFiles/mbedtls_static.dir/ssl_cache.c.s
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.o.requires:
 
@@ -130,17 +130,17 @@ library/CMakeFiles/mbedtls_static.dir/ssl_cache.c.o.provides.build: library/CMak
 
 
 library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_ciphersuites.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_ciphersuites.c
+library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_ciphersuites.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_ciphersuites.c
 
 library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_ciphersuites.c > CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_ciphersuites.c > CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.i
 
 library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_ciphersuites.c -o CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_ciphersuites.c -o CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.s
 
 library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o.requires:
 
@@ -154,17 +154,17 @@ library/CMakeFiles/mbedtls_static.dir/ssl_ciphersuites.c.o.provides.build: libra
 
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cli.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_cli.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cli.c
+library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cli.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_cli.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cli.c
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/ssl_cli.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cli.c > CMakeFiles/mbedtls_static.dir/ssl_cli.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cli.c > CMakeFiles/mbedtls_static.dir/ssl_cli.c.i
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/ssl_cli.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cli.c -o CMakeFiles/mbedtls_static.dir/ssl_cli.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cli.c -o CMakeFiles/mbedtls_static.dir/ssl_cli.c.s
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.o.requires:
 
@@ -178,17 +178,17 @@ library/CMakeFiles/mbedtls_static.dir/ssl_cli.c.o.provides.build: library/CMakeF
 
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cookie.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cookie.c
+library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cookie.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cookie.c
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/ssl_cookie.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cookie.c > CMakeFiles/mbedtls_static.dir/ssl_cookie.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cookie.c > CMakeFiles/mbedtls_static.dir/ssl_cookie.c.i
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/ssl_cookie.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_cookie.c -o CMakeFiles/mbedtls_static.dir/ssl_cookie.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_cookie.c -o CMakeFiles/mbedtls_static.dir/ssl_cookie.c.s
 
 library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o.requires:
 
@@ -202,17 +202,17 @@ library/CMakeFiles/mbedtls_static.dir/ssl_cookie.c.o.provides.build: library/CMa
 
 
 library/CMakeFiles/mbedtls_static.dir/ssl_msg.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/ssl_msg.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_msg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_msg.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_msg.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_msg.c
+library/CMakeFiles/mbedtls_static.dir/ssl_msg.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_msg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_msg.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_msg.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_msg.c
 
 library/CMakeFiles/mbedtls_static.dir/ssl_msg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/ssl_msg.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_msg.c > CMakeFiles/mbedtls_static.dir/ssl_msg.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_msg.c > CMakeFiles/mbedtls_static.dir/ssl_msg.c.i
 
 library/CMakeFiles/mbedtls_static.dir/ssl_msg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/ssl_msg.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_msg.c -o CMakeFiles/mbedtls_static.dir/ssl_msg.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_msg.c -o CMakeFiles/mbedtls_static.dir/ssl_msg.c.s
 
 library/CMakeFiles/mbedtls_static.dir/ssl_msg.c.o.requires:
 
@@ -226,17 +226,17 @@ library/CMakeFiles/mbedtls_static.dir/ssl_msg.c.o.provides.build: library/CMakeF
 
 
 library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_srv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_srv.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_srv.c
+library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_srv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_srv.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_srv.c
 
 library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/ssl_srv.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_srv.c > CMakeFiles/mbedtls_static.dir/ssl_srv.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_srv.c > CMakeFiles/mbedtls_static.dir/ssl_srv.c.i
 
 library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/ssl_srv.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_srv.c -o CMakeFiles/mbedtls_static.dir/ssl_srv.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_srv.c -o CMakeFiles/mbedtls_static.dir/ssl_srv.c.s
 
 library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.o.requires:
 
@@ -250,17 +250,17 @@ library/CMakeFiles/mbedtls_static.dir/ssl_srv.c.o.provides.build: library/CMakeF
 
 
 library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_ticket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_ticket.c
+library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_ticket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_ticket.c
 
 library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/ssl_ticket.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_ticket.c > CMakeFiles/mbedtls_static.dir/ssl_ticket.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_ticket.c > CMakeFiles/mbedtls_static.dir/ssl_ticket.c.i
 
 library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/ssl_ticket.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_ticket.c -o CMakeFiles/mbedtls_static.dir/ssl_ticket.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_ticket.c -o CMakeFiles/mbedtls_static.dir/ssl_ticket.c.s
 
 library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o.requires:
 
@@ -274,17 +274,17 @@ library/CMakeFiles/mbedtls_static.dir/ssl_ticket.c.o.provides.build: library/CMa
 
 
 library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_tls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_tls.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_tls.c
+library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_tls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_tls.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_tls.c
 
 library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/ssl_tls.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_tls.c > CMakeFiles/mbedtls_static.dir/ssl_tls.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_tls.c > CMakeFiles/mbedtls_static.dir/ssl_tls.c.i
 
 library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/ssl_tls.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_tls.c -o CMakeFiles/mbedtls_static.dir/ssl_tls.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_tls.c -o CMakeFiles/mbedtls_static.dir/ssl_tls.c.s
 
 library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.o.requires:
 
@@ -298,17 +298,17 @@ library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.o.provides.build: library/CMakeF
 
 
 library/CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.o: library/CMakeFiles/mbedtls_static.dir/flags.make
-library/CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_tls13_keys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_tls13_keys.c
+library/CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_tls13_keys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object library/CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_tls13_keys.c
 
 library/CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_tls13_keys.c > CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_tls13_keys.c > CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.i
 
 library/CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ssl_tls13_keys.c -o CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ssl_tls13_keys.c -o CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.s
 
 library/CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.o.requires:
 
@@ -351,9 +351,9 @@ library/libmbedtls.a: library/CMakeFiles/mbedtls_static.dir/ssl_tls.c.o
 library/libmbedtls.a: library/CMakeFiles/mbedtls_static.dir/ssl_tls13_keys.c.o
 library/libmbedtls.a: library/CMakeFiles/mbedtls_static.dir/build.make
 library/libmbedtls.a: library/CMakeFiles/mbedtls_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C static library libmbedtls.a"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls_static.dir/cmake_clean_target.cmake
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbedtls_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C static library libmbedtls.a"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls_static.dir/cmake_clean_target.cmake
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbedtls_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 library/CMakeFiles/mbedtls_static.dir/build: library/libmbedtls.a
@@ -375,10 +375,10 @@ library/CMakeFiles/mbedtls_static.dir/requires: library/CMakeFiles/mbedtls_stati
 .PHONY : library/CMakeFiles/mbedtls_static.dir/requires
 
 library/CMakeFiles/mbedtls_static.dir/clean:
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls_static.dir/cmake_clean.cmake
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls_static.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/mbedtls_static.dir/clean
 
 library/CMakeFiles/mbedtls_static.dir/depend:
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library/CMakeFiles/mbedtls_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library/CMakeFiles/mbedtls_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/mbedtls_static.dir/depend
 

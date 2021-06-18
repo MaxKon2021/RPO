@@ -6,5 +6,5 @@ CXX_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fs
 
 CXX_DEFINES = -DSPDLOG_COMPILED_LIB -DSPDLOG_LEVEL_NAME_CRITICAL=\"critical\" -DSPDLOG_LEVEL_NAME_DEBUG=\"debug\" -DSPDLOG_LEVEL_NAME_ERROR=\"error\" -DSPDLOG_LEVEL_NAME_INFO=\"info\" -DSPDLOG_LEVEL_NAME_OFF=\"off\" -DSPDLOG_LEVEL_NAME_TRACE=\"trace\" -DSPDLOG_LEVEL_NAME_WARNING=\"warning\"
 
-CXX_INCLUDES = -I/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include 
+CXX_INCLUDES = -I/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include 
 

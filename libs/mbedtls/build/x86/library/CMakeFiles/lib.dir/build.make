@@ -43,10 +43,10 @@ RM = /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86
 
 # Utility rule file for lib.
 
@@ -69,10 +69,10 @@ library/CMakeFiles/lib.dir/build: lib
 .PHONY : library/CMakeFiles/lib.dir/build
 
 library/CMakeFiles/lib.dir/clean:
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/lib.dir/clean
 
 library/CMakeFiles/lib.dir/depend:
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/lib.dir/depend
 

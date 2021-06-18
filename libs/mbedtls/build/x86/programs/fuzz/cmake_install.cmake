@@ -1,4 +1,4 @@
-# Install script for directory: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/programs/fuzz
+# Install script for directory: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/programs/fuzz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

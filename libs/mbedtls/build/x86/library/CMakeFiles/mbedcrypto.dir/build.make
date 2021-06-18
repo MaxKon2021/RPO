@@ -43,10 +43,10 @@ RM = /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86
 
 # Include any dependencies generated for this target.
 include library/CMakeFiles/mbedcrypto.dir/depend.make
@@ -58,17 +58,17 @@ include library/CMakeFiles/mbedcrypto.dir/progress.make
 include library/CMakeFiles/mbedcrypto.dir/flags.make
 
 library/CMakeFiles/mbedcrypto.dir/aes.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/aes.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object library/CMakeFiles/mbedcrypto.dir/aes.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/aes.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aes.c
+library/CMakeFiles/mbedcrypto.dir/aes.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object library/CMakeFiles/mbedcrypto.dir/aes.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/aes.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aes.c
 
 library/CMakeFiles/mbedcrypto.dir/aes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/aes.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aes.c > CMakeFiles/mbedcrypto.dir/aes.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aes.c > CMakeFiles/mbedcrypto.dir/aes.c.i
 
 library/CMakeFiles/mbedcrypto.dir/aes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/aes.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aes.c -o CMakeFiles/mbedcrypto.dir/aes.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aes.c -o CMakeFiles/mbedcrypto.dir/aes.c.s
 
 library/CMakeFiles/mbedcrypto.dir/aes.c.o.requires:
 
@@ -82,17 +82,17 @@ library/CMakeFiles/mbedcrypto.dir/aes.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/aesni.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/aesni.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aesni.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object library/CMakeFiles/mbedcrypto.dir/aesni.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/aesni.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aesni.c
+library/CMakeFiles/mbedcrypto.dir/aesni.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aesni.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object library/CMakeFiles/mbedcrypto.dir/aesni.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/aesni.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aesni.c
 
 library/CMakeFiles/mbedcrypto.dir/aesni.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/aesni.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aesni.c > CMakeFiles/mbedcrypto.dir/aesni.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aesni.c > CMakeFiles/mbedcrypto.dir/aesni.c.i
 
 library/CMakeFiles/mbedcrypto.dir/aesni.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/aesni.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aesni.c -o CMakeFiles/mbedcrypto.dir/aesni.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aesni.c -o CMakeFiles/mbedcrypto.dir/aesni.c.s
 
 library/CMakeFiles/mbedcrypto.dir/aesni.c.o.requires:
 
@@ -106,17 +106,17 @@ library/CMakeFiles/mbedcrypto.dir/aesni.c.o.provides.build: library/CMakeFiles/m
 
 
 library/CMakeFiles/mbedcrypto.dir/arc4.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/arc4.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/arc4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object library/CMakeFiles/mbedcrypto.dir/arc4.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/arc4.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/arc4.c
+library/CMakeFiles/mbedcrypto.dir/arc4.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/arc4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object library/CMakeFiles/mbedcrypto.dir/arc4.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/arc4.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/arc4.c
 
 library/CMakeFiles/mbedcrypto.dir/arc4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/arc4.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/arc4.c > CMakeFiles/mbedcrypto.dir/arc4.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/arc4.c > CMakeFiles/mbedcrypto.dir/arc4.c.i
 
 library/CMakeFiles/mbedcrypto.dir/arc4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/arc4.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/arc4.c -o CMakeFiles/mbedcrypto.dir/arc4.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/arc4.c -o CMakeFiles/mbedcrypto.dir/arc4.c.s
 
 library/CMakeFiles/mbedcrypto.dir/arc4.c.o.requires:
 
@@ -130,17 +130,17 @@ library/CMakeFiles/mbedcrypto.dir/arc4.c.o.provides.build: library/CMakeFiles/mb
 
 
 library/CMakeFiles/mbedcrypto.dir/aria.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/aria.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aria.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object library/CMakeFiles/mbedcrypto.dir/aria.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/aria.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aria.c
+library/CMakeFiles/mbedcrypto.dir/aria.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aria.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object library/CMakeFiles/mbedcrypto.dir/aria.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/aria.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aria.c
 
 library/CMakeFiles/mbedcrypto.dir/aria.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/aria.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aria.c > CMakeFiles/mbedcrypto.dir/aria.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aria.c > CMakeFiles/mbedcrypto.dir/aria.c.i
 
 library/CMakeFiles/mbedcrypto.dir/aria.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/aria.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/aria.c -o CMakeFiles/mbedcrypto.dir/aria.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/aria.c -o CMakeFiles/mbedcrypto.dir/aria.c.s
 
 library/CMakeFiles/mbedcrypto.dir/aria.c.o.requires:
 
@@ -154,17 +154,17 @@ library/CMakeFiles/mbedcrypto.dir/aria.c.o.provides.build: library/CMakeFiles/mb
 
 
 library/CMakeFiles/mbedcrypto.dir/asn1parse.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/asn1parse.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/asn1parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object library/CMakeFiles/mbedcrypto.dir/asn1parse.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/asn1parse.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/asn1parse.c
+library/CMakeFiles/mbedcrypto.dir/asn1parse.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/asn1parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object library/CMakeFiles/mbedcrypto.dir/asn1parse.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/asn1parse.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/asn1parse.c
 
 library/CMakeFiles/mbedcrypto.dir/asn1parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/asn1parse.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/asn1parse.c > CMakeFiles/mbedcrypto.dir/asn1parse.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/asn1parse.c > CMakeFiles/mbedcrypto.dir/asn1parse.c.i
 
 library/CMakeFiles/mbedcrypto.dir/asn1parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/asn1parse.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/asn1parse.c -o CMakeFiles/mbedcrypto.dir/asn1parse.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/asn1parse.c -o CMakeFiles/mbedcrypto.dir/asn1parse.c.s
 
 library/CMakeFiles/mbedcrypto.dir/asn1parse.c.o.requires:
 
@@ -178,17 +178,17 @@ library/CMakeFiles/mbedcrypto.dir/asn1parse.c.o.provides.build: library/CMakeFil
 
 
 library/CMakeFiles/mbedcrypto.dir/asn1write.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/asn1write.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/asn1write.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object library/CMakeFiles/mbedcrypto.dir/asn1write.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/asn1write.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/asn1write.c
+library/CMakeFiles/mbedcrypto.dir/asn1write.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/asn1write.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object library/CMakeFiles/mbedcrypto.dir/asn1write.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/asn1write.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/asn1write.c
 
 library/CMakeFiles/mbedcrypto.dir/asn1write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/asn1write.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/asn1write.c > CMakeFiles/mbedcrypto.dir/asn1write.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/asn1write.c > CMakeFiles/mbedcrypto.dir/asn1write.c.i
 
 library/CMakeFiles/mbedcrypto.dir/asn1write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/asn1write.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/asn1write.c -o CMakeFiles/mbedcrypto.dir/asn1write.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/asn1write.c -o CMakeFiles/mbedcrypto.dir/asn1write.c.s
 
 library/CMakeFiles/mbedcrypto.dir/asn1write.c.o.requires:
 
@@ -202,17 +202,17 @@ library/CMakeFiles/mbedcrypto.dir/asn1write.c.o.provides.build: library/CMakeFil
 
 
 library/CMakeFiles/mbedcrypto.dir/base64.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/base64.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/base64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object library/CMakeFiles/mbedcrypto.dir/base64.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/base64.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/base64.c
+library/CMakeFiles/mbedcrypto.dir/base64.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/base64.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object library/CMakeFiles/mbedcrypto.dir/base64.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/base64.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/base64.c
 
 library/CMakeFiles/mbedcrypto.dir/base64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/base64.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/base64.c > CMakeFiles/mbedcrypto.dir/base64.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/base64.c > CMakeFiles/mbedcrypto.dir/base64.c.i
 
 library/CMakeFiles/mbedcrypto.dir/base64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/base64.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/base64.c -o CMakeFiles/mbedcrypto.dir/base64.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/base64.c -o CMakeFiles/mbedcrypto.dir/base64.c.s
 
 library/CMakeFiles/mbedcrypto.dir/base64.c.o.requires:
 
@@ -226,17 +226,17 @@ library/CMakeFiles/mbedcrypto.dir/base64.c.o.provides.build: library/CMakeFiles/
 
 
 library/CMakeFiles/mbedcrypto.dir/bignum.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/bignum.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/bignum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object library/CMakeFiles/mbedcrypto.dir/bignum.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/bignum.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/bignum.c
+library/CMakeFiles/mbedcrypto.dir/bignum.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/bignum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object library/CMakeFiles/mbedcrypto.dir/bignum.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/bignum.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/bignum.c
 
 library/CMakeFiles/mbedcrypto.dir/bignum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/bignum.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/bignum.c > CMakeFiles/mbedcrypto.dir/bignum.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/bignum.c > CMakeFiles/mbedcrypto.dir/bignum.c.i
 
 library/CMakeFiles/mbedcrypto.dir/bignum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/bignum.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/bignum.c -o CMakeFiles/mbedcrypto.dir/bignum.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/bignum.c -o CMakeFiles/mbedcrypto.dir/bignum.c.s
 
 library/CMakeFiles/mbedcrypto.dir/bignum.c.o.requires:
 
@@ -250,17 +250,17 @@ library/CMakeFiles/mbedcrypto.dir/bignum.c.o.provides.build: library/CMakeFiles/
 
 
 library/CMakeFiles/mbedcrypto.dir/blowfish.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/blowfish.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/blowfish.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object library/CMakeFiles/mbedcrypto.dir/blowfish.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/blowfish.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/blowfish.c
+library/CMakeFiles/mbedcrypto.dir/blowfish.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/blowfish.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object library/CMakeFiles/mbedcrypto.dir/blowfish.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/blowfish.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/blowfish.c
 
 library/CMakeFiles/mbedcrypto.dir/blowfish.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/blowfish.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/blowfish.c > CMakeFiles/mbedcrypto.dir/blowfish.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/blowfish.c > CMakeFiles/mbedcrypto.dir/blowfish.c.i
 
 library/CMakeFiles/mbedcrypto.dir/blowfish.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/blowfish.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/blowfish.c -o CMakeFiles/mbedcrypto.dir/blowfish.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/blowfish.c -o CMakeFiles/mbedcrypto.dir/blowfish.c.s
 
 library/CMakeFiles/mbedcrypto.dir/blowfish.c.o.requires:
 
@@ -274,17 +274,17 @@ library/CMakeFiles/mbedcrypto.dir/blowfish.c.o.provides.build: library/CMakeFile
 
 
 library/CMakeFiles/mbedcrypto.dir/camellia.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/camellia.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/camellia.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object library/CMakeFiles/mbedcrypto.dir/camellia.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/camellia.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/camellia.c
+library/CMakeFiles/mbedcrypto.dir/camellia.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/camellia.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object library/CMakeFiles/mbedcrypto.dir/camellia.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/camellia.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/camellia.c
 
 library/CMakeFiles/mbedcrypto.dir/camellia.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/camellia.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/camellia.c > CMakeFiles/mbedcrypto.dir/camellia.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/camellia.c > CMakeFiles/mbedcrypto.dir/camellia.c.i
 
 library/CMakeFiles/mbedcrypto.dir/camellia.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/camellia.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/camellia.c -o CMakeFiles/mbedcrypto.dir/camellia.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/camellia.c -o CMakeFiles/mbedcrypto.dir/camellia.c.s
 
 library/CMakeFiles/mbedcrypto.dir/camellia.c.o.requires:
 
@@ -298,17 +298,17 @@ library/CMakeFiles/mbedcrypto.dir/camellia.c.o.provides.build: library/CMakeFile
 
 
 library/CMakeFiles/mbedcrypto.dir/ccm.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/ccm.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ccm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object library/CMakeFiles/mbedcrypto.dir/ccm.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ccm.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ccm.c
+library/CMakeFiles/mbedcrypto.dir/ccm.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ccm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object library/CMakeFiles/mbedcrypto.dir/ccm.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ccm.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ccm.c
 
 library/CMakeFiles/mbedcrypto.dir/ccm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/ccm.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ccm.c > CMakeFiles/mbedcrypto.dir/ccm.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ccm.c > CMakeFiles/mbedcrypto.dir/ccm.c.i
 
 library/CMakeFiles/mbedcrypto.dir/ccm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/ccm.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ccm.c -o CMakeFiles/mbedcrypto.dir/ccm.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ccm.c -o CMakeFiles/mbedcrypto.dir/ccm.c.s
 
 library/CMakeFiles/mbedcrypto.dir/ccm.c.o.requires:
 
@@ -322,17 +322,17 @@ library/CMakeFiles/mbedcrypto.dir/ccm.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/chacha20.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/chacha20.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/chacha20.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object library/CMakeFiles/mbedcrypto.dir/chacha20.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/chacha20.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/chacha20.c
+library/CMakeFiles/mbedcrypto.dir/chacha20.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/chacha20.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object library/CMakeFiles/mbedcrypto.dir/chacha20.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/chacha20.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/chacha20.c
 
 library/CMakeFiles/mbedcrypto.dir/chacha20.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/chacha20.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/chacha20.c > CMakeFiles/mbedcrypto.dir/chacha20.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/chacha20.c > CMakeFiles/mbedcrypto.dir/chacha20.c.i
 
 library/CMakeFiles/mbedcrypto.dir/chacha20.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/chacha20.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/chacha20.c -o CMakeFiles/mbedcrypto.dir/chacha20.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/chacha20.c -o CMakeFiles/mbedcrypto.dir/chacha20.c.s
 
 library/CMakeFiles/mbedcrypto.dir/chacha20.c.o.requires:
 
@@ -346,17 +346,17 @@ library/CMakeFiles/mbedcrypto.dir/chacha20.c.o.provides.build: library/CMakeFile
 
 
 library/CMakeFiles/mbedcrypto.dir/chachapoly.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/chachapoly.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/chachapoly.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object library/CMakeFiles/mbedcrypto.dir/chachapoly.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/chachapoly.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/chachapoly.c
+library/CMakeFiles/mbedcrypto.dir/chachapoly.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/chachapoly.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object library/CMakeFiles/mbedcrypto.dir/chachapoly.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/chachapoly.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/chachapoly.c
 
 library/CMakeFiles/mbedcrypto.dir/chachapoly.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/chachapoly.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/chachapoly.c > CMakeFiles/mbedcrypto.dir/chachapoly.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/chachapoly.c > CMakeFiles/mbedcrypto.dir/chachapoly.c.i
 
 library/CMakeFiles/mbedcrypto.dir/chachapoly.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/chachapoly.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/chachapoly.c -o CMakeFiles/mbedcrypto.dir/chachapoly.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/chachapoly.c -o CMakeFiles/mbedcrypto.dir/chachapoly.c.s
 
 library/CMakeFiles/mbedcrypto.dir/chachapoly.c.o.requires:
 
@@ -370,17 +370,17 @@ library/CMakeFiles/mbedcrypto.dir/chachapoly.c.o.provides.build: library/CMakeFi
 
 
 library/CMakeFiles/mbedcrypto.dir/cipher.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/cipher.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cipher.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object library/CMakeFiles/mbedcrypto.dir/cipher.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/cipher.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cipher.c
+library/CMakeFiles/mbedcrypto.dir/cipher.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cipher.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object library/CMakeFiles/mbedcrypto.dir/cipher.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/cipher.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cipher.c
 
 library/CMakeFiles/mbedcrypto.dir/cipher.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/cipher.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cipher.c > CMakeFiles/mbedcrypto.dir/cipher.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cipher.c > CMakeFiles/mbedcrypto.dir/cipher.c.i
 
 library/CMakeFiles/mbedcrypto.dir/cipher.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/cipher.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cipher.c -o CMakeFiles/mbedcrypto.dir/cipher.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cipher.c -o CMakeFiles/mbedcrypto.dir/cipher.c.s
 
 library/CMakeFiles/mbedcrypto.dir/cipher.c.o.requires:
 
@@ -394,17 +394,17 @@ library/CMakeFiles/mbedcrypto.dir/cipher.c.o.provides.build: library/CMakeFiles/
 
 
 library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cipher_wrap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cipher_wrap.c
+library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cipher_wrap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cipher_wrap.c
 
 library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/cipher_wrap.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cipher_wrap.c > CMakeFiles/mbedcrypto.dir/cipher_wrap.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cipher_wrap.c > CMakeFiles/mbedcrypto.dir/cipher_wrap.c.i
 
 library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/cipher_wrap.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cipher_wrap.c -o CMakeFiles/mbedcrypto.dir/cipher_wrap.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cipher_wrap.c -o CMakeFiles/mbedcrypto.dir/cipher_wrap.c.s
 
 library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o.requires:
 
@@ -418,17 +418,17 @@ library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o.provides.build: library/CMakeF
 
 
 library/CMakeFiles/mbedcrypto.dir/cmac.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/cmac.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cmac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object library/CMakeFiles/mbedcrypto.dir/cmac.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/cmac.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cmac.c
+library/CMakeFiles/mbedcrypto.dir/cmac.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cmac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object library/CMakeFiles/mbedcrypto.dir/cmac.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/cmac.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cmac.c
 
 library/CMakeFiles/mbedcrypto.dir/cmac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/cmac.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cmac.c > CMakeFiles/mbedcrypto.dir/cmac.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cmac.c > CMakeFiles/mbedcrypto.dir/cmac.c.i
 
 library/CMakeFiles/mbedcrypto.dir/cmac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/cmac.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/cmac.c -o CMakeFiles/mbedcrypto.dir/cmac.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/cmac.c -o CMakeFiles/mbedcrypto.dir/cmac.c.s
 
 library/CMakeFiles/mbedcrypto.dir/cmac.c.o.requires:
 
@@ -442,17 +442,17 @@ library/CMakeFiles/mbedcrypto.dir/cmac.c.o.provides.build: library/CMakeFiles/mb
 
 
 library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ctr_drbg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ctr_drbg.c
+library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ctr_drbg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ctr_drbg.c
 
 library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/ctr_drbg.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ctr_drbg.c > CMakeFiles/mbedcrypto.dir/ctr_drbg.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ctr_drbg.c > CMakeFiles/mbedcrypto.dir/ctr_drbg.c.i
 
 library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/ctr_drbg.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ctr_drbg.c -o CMakeFiles/mbedcrypto.dir/ctr_drbg.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ctr_drbg.c -o CMakeFiles/mbedcrypto.dir/ctr_drbg.c.s
 
 library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o.requires:
 
@@ -466,17 +466,17 @@ library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o.provides.build: library/CMakeFile
 
 
 library/CMakeFiles/mbedcrypto.dir/des.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/des.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/des.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object library/CMakeFiles/mbedcrypto.dir/des.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/des.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/des.c
+library/CMakeFiles/mbedcrypto.dir/des.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/des.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object library/CMakeFiles/mbedcrypto.dir/des.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/des.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/des.c
 
 library/CMakeFiles/mbedcrypto.dir/des.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/des.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/des.c > CMakeFiles/mbedcrypto.dir/des.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/des.c > CMakeFiles/mbedcrypto.dir/des.c.i
 
 library/CMakeFiles/mbedcrypto.dir/des.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/des.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/des.c -o CMakeFiles/mbedcrypto.dir/des.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/des.c -o CMakeFiles/mbedcrypto.dir/des.c.s
 
 library/CMakeFiles/mbedcrypto.dir/des.c.o.requires:
 
@@ -490,17 +490,17 @@ library/CMakeFiles/mbedcrypto.dir/des.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/dhm.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/dhm.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/dhm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object library/CMakeFiles/mbedcrypto.dir/dhm.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/dhm.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/dhm.c
+library/CMakeFiles/mbedcrypto.dir/dhm.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/dhm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object library/CMakeFiles/mbedcrypto.dir/dhm.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/dhm.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/dhm.c
 
 library/CMakeFiles/mbedcrypto.dir/dhm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/dhm.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/dhm.c > CMakeFiles/mbedcrypto.dir/dhm.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/dhm.c > CMakeFiles/mbedcrypto.dir/dhm.c.i
 
 library/CMakeFiles/mbedcrypto.dir/dhm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/dhm.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/dhm.c -o CMakeFiles/mbedcrypto.dir/dhm.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/dhm.c -o CMakeFiles/mbedcrypto.dir/dhm.c.s
 
 library/CMakeFiles/mbedcrypto.dir/dhm.c.o.requires:
 
@@ -514,17 +514,17 @@ library/CMakeFiles/mbedcrypto.dir/dhm.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/ecdh.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/ecdh.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecdh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object library/CMakeFiles/mbedcrypto.dir/ecdh.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecdh.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecdh.c
+library/CMakeFiles/mbedcrypto.dir/ecdh.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecdh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object library/CMakeFiles/mbedcrypto.dir/ecdh.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecdh.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecdh.c
 
 library/CMakeFiles/mbedcrypto.dir/ecdh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/ecdh.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecdh.c > CMakeFiles/mbedcrypto.dir/ecdh.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecdh.c > CMakeFiles/mbedcrypto.dir/ecdh.c.i
 
 library/CMakeFiles/mbedcrypto.dir/ecdh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/ecdh.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecdh.c -o CMakeFiles/mbedcrypto.dir/ecdh.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecdh.c -o CMakeFiles/mbedcrypto.dir/ecdh.c.s
 
 library/CMakeFiles/mbedcrypto.dir/ecdh.c.o.requires:
 
@@ -538,17 +538,17 @@ library/CMakeFiles/mbedcrypto.dir/ecdh.c.o.provides.build: library/CMakeFiles/mb
 
 
 library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecdsa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecdsa.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecdsa.c
+library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecdsa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecdsa.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecdsa.c
 
 library/CMakeFiles/mbedcrypto.dir/ecdsa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/ecdsa.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecdsa.c > CMakeFiles/mbedcrypto.dir/ecdsa.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecdsa.c > CMakeFiles/mbedcrypto.dir/ecdsa.c.i
 
 library/CMakeFiles/mbedcrypto.dir/ecdsa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/ecdsa.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecdsa.c -o CMakeFiles/mbedcrypto.dir/ecdsa.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecdsa.c -o CMakeFiles/mbedcrypto.dir/ecdsa.c.s
 
 library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o.requires:
 
@@ -562,17 +562,17 @@ library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o.provides.build: library/CMakeFiles/m
 
 
 library/CMakeFiles/mbedcrypto.dir/ecjpake.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/ecjpake.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecjpake.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object library/CMakeFiles/mbedcrypto.dir/ecjpake.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecjpake.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecjpake.c
+library/CMakeFiles/mbedcrypto.dir/ecjpake.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecjpake.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object library/CMakeFiles/mbedcrypto.dir/ecjpake.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecjpake.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecjpake.c
 
 library/CMakeFiles/mbedcrypto.dir/ecjpake.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/ecjpake.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecjpake.c > CMakeFiles/mbedcrypto.dir/ecjpake.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecjpake.c > CMakeFiles/mbedcrypto.dir/ecjpake.c.i
 
 library/CMakeFiles/mbedcrypto.dir/ecjpake.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/ecjpake.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecjpake.c -o CMakeFiles/mbedcrypto.dir/ecjpake.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecjpake.c -o CMakeFiles/mbedcrypto.dir/ecjpake.c.s
 
 library/CMakeFiles/mbedcrypto.dir/ecjpake.c.o.requires:
 
@@ -586,17 +586,17 @@ library/CMakeFiles/mbedcrypto.dir/ecjpake.c.o.provides.build: library/CMakeFiles
 
 
 library/CMakeFiles/mbedcrypto.dir/ecp.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/ecp.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object library/CMakeFiles/mbedcrypto.dir/ecp.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecp.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecp.c
+library/CMakeFiles/mbedcrypto.dir/ecp.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object library/CMakeFiles/mbedcrypto.dir/ecp.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecp.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecp.c
 
 library/CMakeFiles/mbedcrypto.dir/ecp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/ecp.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecp.c > CMakeFiles/mbedcrypto.dir/ecp.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecp.c > CMakeFiles/mbedcrypto.dir/ecp.c.i
 
 library/CMakeFiles/mbedcrypto.dir/ecp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/ecp.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecp.c -o CMakeFiles/mbedcrypto.dir/ecp.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecp.c -o CMakeFiles/mbedcrypto.dir/ecp.c.s
 
 library/CMakeFiles/mbedcrypto.dir/ecp.c.o.requires:
 
@@ -610,17 +610,17 @@ library/CMakeFiles/mbedcrypto.dir/ecp.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecp_curves.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecp_curves.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecp_curves.c
+library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecp_curves.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ecp_curves.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecp_curves.c
 
 library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/ecp_curves.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecp_curves.c > CMakeFiles/mbedcrypto.dir/ecp_curves.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecp_curves.c > CMakeFiles/mbedcrypto.dir/ecp_curves.c.i
 
 library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/ecp_curves.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ecp_curves.c -o CMakeFiles/mbedcrypto.dir/ecp_curves.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ecp_curves.c -o CMakeFiles/mbedcrypto.dir/ecp_curves.c.s
 
 library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.o.requires:
 
@@ -634,17 +634,17 @@ library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.o.provides.build: library/CMakeFi
 
 
 library/CMakeFiles/mbedcrypto.dir/entropy.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/entropy.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/entropy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object library/CMakeFiles/mbedcrypto.dir/entropy.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/entropy.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/entropy.c
+library/CMakeFiles/mbedcrypto.dir/entropy.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/entropy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object library/CMakeFiles/mbedcrypto.dir/entropy.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/entropy.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/entropy.c
 
 library/CMakeFiles/mbedcrypto.dir/entropy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/entropy.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/entropy.c > CMakeFiles/mbedcrypto.dir/entropy.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/entropy.c > CMakeFiles/mbedcrypto.dir/entropy.c.i
 
 library/CMakeFiles/mbedcrypto.dir/entropy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/entropy.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/entropy.c -o CMakeFiles/mbedcrypto.dir/entropy.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/entropy.c -o CMakeFiles/mbedcrypto.dir/entropy.c.s
 
 library/CMakeFiles/mbedcrypto.dir/entropy.c.o.requires:
 
@@ -658,17 +658,17 @@ library/CMakeFiles/mbedcrypto.dir/entropy.c.o.provides.build: library/CMakeFiles
 
 
 library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/entropy_poll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/entropy_poll.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/entropy_poll.c
+library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/entropy_poll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/entropy_poll.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/entropy_poll.c
 
 library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/entropy_poll.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/entropy_poll.c > CMakeFiles/mbedcrypto.dir/entropy_poll.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/entropy_poll.c > CMakeFiles/mbedcrypto.dir/entropy_poll.c.i
 
 library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/entropy_poll.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/entropy_poll.c -o CMakeFiles/mbedcrypto.dir/entropy_poll.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/entropy_poll.c -o CMakeFiles/mbedcrypto.dir/entropy_poll.c.s
 
 library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o.requires:
 
@@ -682,17 +682,17 @@ library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o.provides.build: library/CMake
 
 
 library/CMakeFiles/mbedcrypto.dir/error.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/error.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object library/CMakeFiles/mbedcrypto.dir/error.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/error.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/error.c
+library/CMakeFiles/mbedcrypto.dir/error.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object library/CMakeFiles/mbedcrypto.dir/error.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/error.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/error.c
 
 library/CMakeFiles/mbedcrypto.dir/error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/error.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/error.c > CMakeFiles/mbedcrypto.dir/error.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/error.c > CMakeFiles/mbedcrypto.dir/error.c.i
 
 library/CMakeFiles/mbedcrypto.dir/error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/error.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/error.c -o CMakeFiles/mbedcrypto.dir/error.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/error.c -o CMakeFiles/mbedcrypto.dir/error.c.s
 
 library/CMakeFiles/mbedcrypto.dir/error.c.o.requires:
 
@@ -706,17 +706,17 @@ library/CMakeFiles/mbedcrypto.dir/error.c.o.provides.build: library/CMakeFiles/m
 
 
 library/CMakeFiles/mbedcrypto.dir/gcm.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/gcm.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/gcm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object library/CMakeFiles/mbedcrypto.dir/gcm.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/gcm.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/gcm.c
+library/CMakeFiles/mbedcrypto.dir/gcm.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/gcm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object library/CMakeFiles/mbedcrypto.dir/gcm.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/gcm.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/gcm.c
 
 library/CMakeFiles/mbedcrypto.dir/gcm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/gcm.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/gcm.c > CMakeFiles/mbedcrypto.dir/gcm.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/gcm.c > CMakeFiles/mbedcrypto.dir/gcm.c.i
 
 library/CMakeFiles/mbedcrypto.dir/gcm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/gcm.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/gcm.c -o CMakeFiles/mbedcrypto.dir/gcm.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/gcm.c -o CMakeFiles/mbedcrypto.dir/gcm.c.s
 
 library/CMakeFiles/mbedcrypto.dir/gcm.c.o.requires:
 
@@ -730,17 +730,17 @@ library/CMakeFiles/mbedcrypto.dir/gcm.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/hkdf.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/hkdf.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/hkdf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object library/CMakeFiles/mbedcrypto.dir/hkdf.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/hkdf.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/hkdf.c
+library/CMakeFiles/mbedcrypto.dir/hkdf.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/hkdf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object library/CMakeFiles/mbedcrypto.dir/hkdf.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/hkdf.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/hkdf.c
 
 library/CMakeFiles/mbedcrypto.dir/hkdf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/hkdf.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/hkdf.c > CMakeFiles/mbedcrypto.dir/hkdf.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/hkdf.c > CMakeFiles/mbedcrypto.dir/hkdf.c.i
 
 library/CMakeFiles/mbedcrypto.dir/hkdf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/hkdf.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/hkdf.c -o CMakeFiles/mbedcrypto.dir/hkdf.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/hkdf.c -o CMakeFiles/mbedcrypto.dir/hkdf.c.s
 
 library/CMakeFiles/mbedcrypto.dir/hkdf.c.o.requires:
 
@@ -754,17 +754,17 @@ library/CMakeFiles/mbedcrypto.dir/hkdf.c.o.provides.build: library/CMakeFiles/mb
 
 
 library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/hmac_drbg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/hmac_drbg.c
+library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/hmac_drbg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/hmac_drbg.c
 
 library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/hmac_drbg.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/hmac_drbg.c > CMakeFiles/mbedcrypto.dir/hmac_drbg.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/hmac_drbg.c > CMakeFiles/mbedcrypto.dir/hmac_drbg.c.i
 
 library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/hmac_drbg.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/hmac_drbg.c -o CMakeFiles/mbedcrypto.dir/hmac_drbg.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/hmac_drbg.c -o CMakeFiles/mbedcrypto.dir/hmac_drbg.c.s
 
 library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o.requires:
 
@@ -778,17 +778,17 @@ library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o.provides.build: library/CMakeFil
 
 
 library/CMakeFiles/mbedcrypto.dir/md.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/md.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object library/CMakeFiles/mbedcrypto.dir/md.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/md.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md.c
+library/CMakeFiles/mbedcrypto.dir/md.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object library/CMakeFiles/mbedcrypto.dir/md.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/md.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md.c
 
 library/CMakeFiles/mbedcrypto.dir/md.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/md.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md.c > CMakeFiles/mbedcrypto.dir/md.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md.c > CMakeFiles/mbedcrypto.dir/md.c.i
 
 library/CMakeFiles/mbedcrypto.dir/md.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/md.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md.c -o CMakeFiles/mbedcrypto.dir/md.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md.c -o CMakeFiles/mbedcrypto.dir/md.c.s
 
 library/CMakeFiles/mbedcrypto.dir/md.c.o.requires:
 
@@ -802,17 +802,17 @@ library/CMakeFiles/mbedcrypto.dir/md.c.o.provides.build: library/CMakeFiles/mbed
 
 
 library/CMakeFiles/mbedcrypto.dir/md2.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/md2.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object library/CMakeFiles/mbedcrypto.dir/md2.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/md2.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md2.c
+library/CMakeFiles/mbedcrypto.dir/md2.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object library/CMakeFiles/mbedcrypto.dir/md2.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/md2.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md2.c
 
 library/CMakeFiles/mbedcrypto.dir/md2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/md2.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md2.c > CMakeFiles/mbedcrypto.dir/md2.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md2.c > CMakeFiles/mbedcrypto.dir/md2.c.i
 
 library/CMakeFiles/mbedcrypto.dir/md2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/md2.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md2.c -o CMakeFiles/mbedcrypto.dir/md2.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md2.c -o CMakeFiles/mbedcrypto.dir/md2.c.s
 
 library/CMakeFiles/mbedcrypto.dir/md2.c.o.requires:
 
@@ -826,17 +826,17 @@ library/CMakeFiles/mbedcrypto.dir/md2.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/md4.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/md4.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object library/CMakeFiles/mbedcrypto.dir/md4.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/md4.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md4.c
+library/CMakeFiles/mbedcrypto.dir/md4.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object library/CMakeFiles/mbedcrypto.dir/md4.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/md4.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md4.c
 
 library/CMakeFiles/mbedcrypto.dir/md4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/md4.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md4.c > CMakeFiles/mbedcrypto.dir/md4.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md4.c > CMakeFiles/mbedcrypto.dir/md4.c.i
 
 library/CMakeFiles/mbedcrypto.dir/md4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/md4.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md4.c -o CMakeFiles/mbedcrypto.dir/md4.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md4.c -o CMakeFiles/mbedcrypto.dir/md4.c.s
 
 library/CMakeFiles/mbedcrypto.dir/md4.c.o.requires:
 
@@ -850,17 +850,17 @@ library/CMakeFiles/mbedcrypto.dir/md4.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/md5.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/md5.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object library/CMakeFiles/mbedcrypto.dir/md5.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/md5.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md5.c
+library/CMakeFiles/mbedcrypto.dir/md5.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object library/CMakeFiles/mbedcrypto.dir/md5.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/md5.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md5.c
 
 library/CMakeFiles/mbedcrypto.dir/md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/md5.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md5.c > CMakeFiles/mbedcrypto.dir/md5.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md5.c > CMakeFiles/mbedcrypto.dir/md5.c.i
 
 library/CMakeFiles/mbedcrypto.dir/md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/md5.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/md5.c -o CMakeFiles/mbedcrypto.dir/md5.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/md5.c -o CMakeFiles/mbedcrypto.dir/md5.c.s
 
 library/CMakeFiles/mbedcrypto.dir/md5.c.o.requires:
 
@@ -874,17 +874,17 @@ library/CMakeFiles/mbedcrypto.dir/md5.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/memory_buffer_alloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/memory_buffer_alloc.c
+library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/memory_buffer_alloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/memory_buffer_alloc.c
 
 library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/memory_buffer_alloc.c > CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/memory_buffer_alloc.c > CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.i
 
 library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/memory_buffer_alloc.c -o CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/memory_buffer_alloc.c -o CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.s
 
 library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o.requires:
 
@@ -898,17 +898,17 @@ library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o.provides.build: librar
 
 
 library/CMakeFiles/mbedcrypto.dir/mps_reader.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/mps_reader.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/mps_reader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object library/CMakeFiles/mbedcrypto.dir/mps_reader.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/mps_reader.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/mps_reader.c
+library/CMakeFiles/mbedcrypto.dir/mps_reader.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/mps_reader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object library/CMakeFiles/mbedcrypto.dir/mps_reader.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/mps_reader.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/mps_reader.c
 
 library/CMakeFiles/mbedcrypto.dir/mps_reader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/mps_reader.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/mps_reader.c > CMakeFiles/mbedcrypto.dir/mps_reader.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/mps_reader.c > CMakeFiles/mbedcrypto.dir/mps_reader.c.i
 
 library/CMakeFiles/mbedcrypto.dir/mps_reader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/mps_reader.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/mps_reader.c -o CMakeFiles/mbedcrypto.dir/mps_reader.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/mps_reader.c -o CMakeFiles/mbedcrypto.dir/mps_reader.c.s
 
 library/CMakeFiles/mbedcrypto.dir/mps_reader.c.o.requires:
 
@@ -922,17 +922,17 @@ library/CMakeFiles/mbedcrypto.dir/mps_reader.c.o.provides.build: library/CMakeFi
 
 
 library/CMakeFiles/mbedcrypto.dir/mps_trace.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/mps_trace.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/mps_trace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object library/CMakeFiles/mbedcrypto.dir/mps_trace.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/mps_trace.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/mps_trace.c
+library/CMakeFiles/mbedcrypto.dir/mps_trace.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/mps_trace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object library/CMakeFiles/mbedcrypto.dir/mps_trace.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/mps_trace.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/mps_trace.c
 
 library/CMakeFiles/mbedcrypto.dir/mps_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/mps_trace.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/mps_trace.c > CMakeFiles/mbedcrypto.dir/mps_trace.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/mps_trace.c > CMakeFiles/mbedcrypto.dir/mps_trace.c.i
 
 library/CMakeFiles/mbedcrypto.dir/mps_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/mps_trace.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/mps_trace.c -o CMakeFiles/mbedcrypto.dir/mps_trace.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/mps_trace.c -o CMakeFiles/mbedcrypto.dir/mps_trace.c.s
 
 library/CMakeFiles/mbedcrypto.dir/mps_trace.c.o.requires:
 
@@ -946,17 +946,17 @@ library/CMakeFiles/mbedcrypto.dir/mps_trace.c.o.provides.build: library/CMakeFil
 
 
 library/CMakeFiles/mbedcrypto.dir/nist_kw.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/nist_kw.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/nist_kw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object library/CMakeFiles/mbedcrypto.dir/nist_kw.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/nist_kw.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/nist_kw.c
+library/CMakeFiles/mbedcrypto.dir/nist_kw.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/nist_kw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object library/CMakeFiles/mbedcrypto.dir/nist_kw.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/nist_kw.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/nist_kw.c
 
 library/CMakeFiles/mbedcrypto.dir/nist_kw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/nist_kw.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/nist_kw.c > CMakeFiles/mbedcrypto.dir/nist_kw.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/nist_kw.c > CMakeFiles/mbedcrypto.dir/nist_kw.c.i
 
 library/CMakeFiles/mbedcrypto.dir/nist_kw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/nist_kw.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/nist_kw.c -o CMakeFiles/mbedcrypto.dir/nist_kw.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/nist_kw.c -o CMakeFiles/mbedcrypto.dir/nist_kw.c.s
 
 library/CMakeFiles/mbedcrypto.dir/nist_kw.c.o.requires:
 
@@ -970,17 +970,17 @@ library/CMakeFiles/mbedcrypto.dir/nist_kw.c.o.provides.build: library/CMakeFiles
 
 
 library/CMakeFiles/mbedcrypto.dir/oid.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/oid.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/oid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object library/CMakeFiles/mbedcrypto.dir/oid.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/oid.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/oid.c
+library/CMakeFiles/mbedcrypto.dir/oid.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/oid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object library/CMakeFiles/mbedcrypto.dir/oid.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/oid.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/oid.c
 
 library/CMakeFiles/mbedcrypto.dir/oid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/oid.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/oid.c > CMakeFiles/mbedcrypto.dir/oid.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/oid.c > CMakeFiles/mbedcrypto.dir/oid.c.i
 
 library/CMakeFiles/mbedcrypto.dir/oid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/oid.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/oid.c -o CMakeFiles/mbedcrypto.dir/oid.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/oid.c -o CMakeFiles/mbedcrypto.dir/oid.c.s
 
 library/CMakeFiles/mbedcrypto.dir/oid.c.o.requires:
 
@@ -994,17 +994,17 @@ library/CMakeFiles/mbedcrypto.dir/oid.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/padlock.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/padlock.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/padlock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object library/CMakeFiles/mbedcrypto.dir/padlock.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/padlock.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/padlock.c
+library/CMakeFiles/mbedcrypto.dir/padlock.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/padlock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object library/CMakeFiles/mbedcrypto.dir/padlock.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/padlock.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/padlock.c
 
 library/CMakeFiles/mbedcrypto.dir/padlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/padlock.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/padlock.c > CMakeFiles/mbedcrypto.dir/padlock.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/padlock.c > CMakeFiles/mbedcrypto.dir/padlock.c.i
 
 library/CMakeFiles/mbedcrypto.dir/padlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/padlock.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/padlock.c -o CMakeFiles/mbedcrypto.dir/padlock.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/padlock.c -o CMakeFiles/mbedcrypto.dir/padlock.c.s
 
 library/CMakeFiles/mbedcrypto.dir/padlock.c.o.requires:
 
@@ -1018,17 +1018,17 @@ library/CMakeFiles/mbedcrypto.dir/padlock.c.o.provides.build: library/CMakeFiles
 
 
 library/CMakeFiles/mbedcrypto.dir/pem.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/pem.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object library/CMakeFiles/mbedcrypto.dir/pem.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pem.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pem.c
+library/CMakeFiles/mbedcrypto.dir/pem.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object library/CMakeFiles/mbedcrypto.dir/pem.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pem.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pem.c
 
 library/CMakeFiles/mbedcrypto.dir/pem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/pem.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pem.c > CMakeFiles/mbedcrypto.dir/pem.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pem.c > CMakeFiles/mbedcrypto.dir/pem.c.i
 
 library/CMakeFiles/mbedcrypto.dir/pem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/pem.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pem.c -o CMakeFiles/mbedcrypto.dir/pem.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pem.c -o CMakeFiles/mbedcrypto.dir/pem.c.s
 
 library/CMakeFiles/mbedcrypto.dir/pem.c.o.requires:
 
@@ -1042,17 +1042,17 @@ library/CMakeFiles/mbedcrypto.dir/pem.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/pk.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/pk.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object library/CMakeFiles/mbedcrypto.dir/pk.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pk.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pk.c
+library/CMakeFiles/mbedcrypto.dir/pk.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object library/CMakeFiles/mbedcrypto.dir/pk.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pk.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pk.c
 
 library/CMakeFiles/mbedcrypto.dir/pk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/pk.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pk.c > CMakeFiles/mbedcrypto.dir/pk.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pk.c > CMakeFiles/mbedcrypto.dir/pk.c.i
 
 library/CMakeFiles/mbedcrypto.dir/pk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/pk.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pk.c -o CMakeFiles/mbedcrypto.dir/pk.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pk.c -o CMakeFiles/mbedcrypto.dir/pk.c.s
 
 library/CMakeFiles/mbedcrypto.dir/pk.c.o.requires:
 
@@ -1066,17 +1066,17 @@ library/CMakeFiles/mbedcrypto.dir/pk.c.o.provides.build: library/CMakeFiles/mbed
 
 
 library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pk_wrap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pk_wrap.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pk_wrap.c
+library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pk_wrap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pk_wrap.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pk_wrap.c
 
 library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/pk_wrap.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pk_wrap.c > CMakeFiles/mbedcrypto.dir/pk_wrap.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pk_wrap.c > CMakeFiles/mbedcrypto.dir/pk_wrap.c.i
 
 library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/pk_wrap.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pk_wrap.c -o CMakeFiles/mbedcrypto.dir/pk_wrap.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pk_wrap.c -o CMakeFiles/mbedcrypto.dir/pk_wrap.c.s
 
 library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o.requires:
 
@@ -1090,17 +1090,17 @@ library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o.provides.build: library/CMakeFiles
 
 
 library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkcs12.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pkcs12.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkcs12.c
+library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkcs12.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pkcs12.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkcs12.c
 
 library/CMakeFiles/mbedcrypto.dir/pkcs12.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/pkcs12.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkcs12.c > CMakeFiles/mbedcrypto.dir/pkcs12.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkcs12.c > CMakeFiles/mbedcrypto.dir/pkcs12.c.i
 
 library/CMakeFiles/mbedcrypto.dir/pkcs12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/pkcs12.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkcs12.c -o CMakeFiles/mbedcrypto.dir/pkcs12.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkcs12.c -o CMakeFiles/mbedcrypto.dir/pkcs12.c.s
 
 library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o.requires:
 
@@ -1114,17 +1114,17 @@ library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o.provides.build: library/CMakeFiles/
 
 
 library/CMakeFiles/mbedcrypto.dir/pkcs5.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/pkcs5.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkcs5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object library/CMakeFiles/mbedcrypto.dir/pkcs5.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pkcs5.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkcs5.c
+library/CMakeFiles/mbedcrypto.dir/pkcs5.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkcs5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object library/CMakeFiles/mbedcrypto.dir/pkcs5.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pkcs5.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkcs5.c
 
 library/CMakeFiles/mbedcrypto.dir/pkcs5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/pkcs5.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkcs5.c > CMakeFiles/mbedcrypto.dir/pkcs5.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkcs5.c > CMakeFiles/mbedcrypto.dir/pkcs5.c.i
 
 library/CMakeFiles/mbedcrypto.dir/pkcs5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/pkcs5.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkcs5.c -o CMakeFiles/mbedcrypto.dir/pkcs5.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkcs5.c -o CMakeFiles/mbedcrypto.dir/pkcs5.c.s
 
 library/CMakeFiles/mbedcrypto.dir/pkcs5.c.o.requires:
 
@@ -1138,17 +1138,17 @@ library/CMakeFiles/mbedcrypto.dir/pkcs5.c.o.provides.build: library/CMakeFiles/m
 
 
 library/CMakeFiles/mbedcrypto.dir/pkparse.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/pkparse.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkparse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object library/CMakeFiles/mbedcrypto.dir/pkparse.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pkparse.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkparse.c
+library/CMakeFiles/mbedcrypto.dir/pkparse.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkparse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object library/CMakeFiles/mbedcrypto.dir/pkparse.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pkparse.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkparse.c
 
 library/CMakeFiles/mbedcrypto.dir/pkparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/pkparse.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkparse.c > CMakeFiles/mbedcrypto.dir/pkparse.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkparse.c > CMakeFiles/mbedcrypto.dir/pkparse.c.i
 
 library/CMakeFiles/mbedcrypto.dir/pkparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/pkparse.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkparse.c -o CMakeFiles/mbedcrypto.dir/pkparse.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkparse.c -o CMakeFiles/mbedcrypto.dir/pkparse.c.s
 
 library/CMakeFiles/mbedcrypto.dir/pkparse.c.o.requires:
 
@@ -1162,17 +1162,17 @@ library/CMakeFiles/mbedcrypto.dir/pkparse.c.o.provides.build: library/CMakeFiles
 
 
 library/CMakeFiles/mbedcrypto.dir/pkwrite.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/pkwrite.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object library/CMakeFiles/mbedcrypto.dir/pkwrite.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pkwrite.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkwrite.c
+library/CMakeFiles/mbedcrypto.dir/pkwrite.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object library/CMakeFiles/mbedcrypto.dir/pkwrite.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/pkwrite.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkwrite.c
 
 library/CMakeFiles/mbedcrypto.dir/pkwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/pkwrite.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkwrite.c > CMakeFiles/mbedcrypto.dir/pkwrite.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkwrite.c > CMakeFiles/mbedcrypto.dir/pkwrite.c.i
 
 library/CMakeFiles/mbedcrypto.dir/pkwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/pkwrite.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/pkwrite.c -o CMakeFiles/mbedcrypto.dir/pkwrite.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/pkwrite.c -o CMakeFiles/mbedcrypto.dir/pkwrite.c.s
 
 library/CMakeFiles/mbedcrypto.dir/pkwrite.c.o.requires:
 
@@ -1186,17 +1186,17 @@ library/CMakeFiles/mbedcrypto.dir/pkwrite.c.o.provides.build: library/CMakeFiles
 
 
 library/CMakeFiles/mbedcrypto.dir/platform.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/platform.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object library/CMakeFiles/mbedcrypto.dir/platform.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/platform.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/platform.c
+library/CMakeFiles/mbedcrypto.dir/platform.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object library/CMakeFiles/mbedcrypto.dir/platform.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/platform.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/platform.c
 
 library/CMakeFiles/mbedcrypto.dir/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/platform.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/platform.c > CMakeFiles/mbedcrypto.dir/platform.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/platform.c > CMakeFiles/mbedcrypto.dir/platform.c.i
 
 library/CMakeFiles/mbedcrypto.dir/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/platform.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/platform.c -o CMakeFiles/mbedcrypto.dir/platform.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/platform.c -o CMakeFiles/mbedcrypto.dir/platform.c.s
 
 library/CMakeFiles/mbedcrypto.dir/platform.c.o.requires:
 
@@ -1210,17 +1210,17 @@ library/CMakeFiles/mbedcrypto.dir/platform.c.o.provides.build: library/CMakeFile
 
 
 library/CMakeFiles/mbedcrypto.dir/platform_util.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/platform_util.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/platform_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object library/CMakeFiles/mbedcrypto.dir/platform_util.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/platform_util.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/platform_util.c
+library/CMakeFiles/mbedcrypto.dir/platform_util.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/platform_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object library/CMakeFiles/mbedcrypto.dir/platform_util.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/platform_util.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/platform_util.c
 
 library/CMakeFiles/mbedcrypto.dir/platform_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/platform_util.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/platform_util.c > CMakeFiles/mbedcrypto.dir/platform_util.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/platform_util.c > CMakeFiles/mbedcrypto.dir/platform_util.c.i
 
 library/CMakeFiles/mbedcrypto.dir/platform_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/platform_util.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/platform_util.c -o CMakeFiles/mbedcrypto.dir/platform_util.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/platform_util.c -o CMakeFiles/mbedcrypto.dir/platform_util.c.s
 
 library/CMakeFiles/mbedcrypto.dir/platform_util.c.o.requires:
 
@@ -1234,17 +1234,17 @@ library/CMakeFiles/mbedcrypto.dir/platform_util.c.o.provides.build: library/CMak
 
 
 library/CMakeFiles/mbedcrypto.dir/poly1305.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/poly1305.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/poly1305.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object library/CMakeFiles/mbedcrypto.dir/poly1305.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/poly1305.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/poly1305.c
+library/CMakeFiles/mbedcrypto.dir/poly1305.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/poly1305.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object library/CMakeFiles/mbedcrypto.dir/poly1305.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/poly1305.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/poly1305.c
 
 library/CMakeFiles/mbedcrypto.dir/poly1305.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/poly1305.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/poly1305.c > CMakeFiles/mbedcrypto.dir/poly1305.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/poly1305.c > CMakeFiles/mbedcrypto.dir/poly1305.c.i
 
 library/CMakeFiles/mbedcrypto.dir/poly1305.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/poly1305.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/poly1305.c -o CMakeFiles/mbedcrypto.dir/poly1305.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/poly1305.c -o CMakeFiles/mbedcrypto.dir/poly1305.c.s
 
 library/CMakeFiles/mbedcrypto.dir/poly1305.c.o.requires:
 
@@ -1258,17 +1258,17 @@ library/CMakeFiles/mbedcrypto.dir/poly1305.c.o.provides.build: library/CMakeFile
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto.c > CMakeFiles/mbedcrypto.dir/psa_crypto.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto.c > CMakeFiles/mbedcrypto.dir/psa_crypto.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto.c -o CMakeFiles/mbedcrypto.dir/psa_crypto.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto.c -o CMakeFiles/mbedcrypto.dir/psa_crypto.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.o.requires:
 
@@ -1282,17 +1282,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.o.provides.build: library/CMakeFi
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_aead.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_aead.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_aead.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_aead.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_aead.c > CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_aead.c > CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_aead.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_aead.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.o.requires:
 
@@ -1306,17 +1306,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.o.provides.build: library/CM
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_cipher.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_cipher.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_cipher.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_cipher.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_cipher.c > CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_cipher.c > CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_cipher.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_cipher.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.o.requires:
 
@@ -1330,17 +1330,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.o.provides.build: library/
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_client.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_client.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_client.c > CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_client.c > CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_client.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_client.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.o.requires:
 
@@ -1354,17 +1354,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.o.provides.build: library/
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_driver_wrappers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_driver_wrappers.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_driver_wrappers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_driver_wrappers.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_driver_wrappers.c > CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_driver_wrappers.c > CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_driver_wrappers.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_driver_wrappers.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.o.requires:
 
@@ -1378,17 +1378,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.o.provides.build:
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_ecp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_ecp.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_ecp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_ecp.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_ecp.c > CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_ecp.c > CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_ecp.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_ecp.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.o.requires:
 
@@ -1402,17 +1402,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.o.provides.build: library/CMa
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_hash.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_hash.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_hash.c > CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_hash.c > CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_hash.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_hash.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.o.requires:
 
@@ -1426,17 +1426,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.o.provides.build: library/CM
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_mac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_mac.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_mac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_mac.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_mac.c > CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_mac.c > CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_mac.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_mac.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o.requires:
 
@@ -1450,17 +1450,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o.provides.build: library/CMa
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_rsa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_rsa.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_rsa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_rsa.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_rsa.c > CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_rsa.c > CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_rsa.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_rsa.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.o.requires:
 
@@ -1474,17 +1474,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.o.provides.build: library/CMa
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_se.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_se.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_se.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_se.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_se.c > CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_se.c > CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_se.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_se.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o.requires:
 
@@ -1498,17 +1498,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.o.provides.build: library/CMak
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_slot_management.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_slot_management.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_slot_management.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_slot_management.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_slot_management.c > CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_slot_management.c > CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_slot_management.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_slot_management.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.o.requires:
 
@@ -1522,17 +1522,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.o.provides.build:
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_storage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_storage.c
+library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_storage.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_storage.c > CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_storage.c > CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_crypto_storage.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_crypto_storage.c -o CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o.requires:
 
@@ -1546,17 +1546,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o.provides.build: library
 
 
 library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_its_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_its_file.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_its_file.c
+library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_its_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/psa_its_file.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_its_file.c
 
 library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/psa_its_file.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_its_file.c > CMakeFiles/mbedcrypto.dir/psa_its_file.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_its_file.c > CMakeFiles/mbedcrypto.dir/psa_its_file.c.i
 
 library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/psa_its_file.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/psa_its_file.c -o CMakeFiles/mbedcrypto.dir/psa_its_file.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/psa_its_file.c -o CMakeFiles/mbedcrypto.dir/psa_its_file.c.s
 
 library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.o.requires:
 
@@ -1570,17 +1570,17 @@ library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.o.provides.build: library/CMake
 
 
 library/CMakeFiles/mbedcrypto.dir/ripemd160.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/ripemd160.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ripemd160.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object library/CMakeFiles/mbedcrypto.dir/ripemd160.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ripemd160.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ripemd160.c
+library/CMakeFiles/mbedcrypto.dir/ripemd160.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ripemd160.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object library/CMakeFiles/mbedcrypto.dir/ripemd160.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/ripemd160.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ripemd160.c
 
 library/CMakeFiles/mbedcrypto.dir/ripemd160.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/ripemd160.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ripemd160.c > CMakeFiles/mbedcrypto.dir/ripemd160.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ripemd160.c > CMakeFiles/mbedcrypto.dir/ripemd160.c.i
 
 library/CMakeFiles/mbedcrypto.dir/ripemd160.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/ripemd160.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/ripemd160.c -o CMakeFiles/mbedcrypto.dir/ripemd160.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/ripemd160.c -o CMakeFiles/mbedcrypto.dir/ripemd160.c.s
 
 library/CMakeFiles/mbedcrypto.dir/ripemd160.c.o.requires:
 
@@ -1594,17 +1594,17 @@ library/CMakeFiles/mbedcrypto.dir/ripemd160.c.o.provides.build: library/CMakeFil
 
 
 library/CMakeFiles/mbedcrypto.dir/rsa.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/rsa.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/rsa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object library/CMakeFiles/mbedcrypto.dir/rsa.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/rsa.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/rsa.c
+library/CMakeFiles/mbedcrypto.dir/rsa.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/rsa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object library/CMakeFiles/mbedcrypto.dir/rsa.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/rsa.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/rsa.c
 
 library/CMakeFiles/mbedcrypto.dir/rsa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/rsa.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/rsa.c > CMakeFiles/mbedcrypto.dir/rsa.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/rsa.c > CMakeFiles/mbedcrypto.dir/rsa.c.i
 
 library/CMakeFiles/mbedcrypto.dir/rsa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/rsa.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/rsa.c -o CMakeFiles/mbedcrypto.dir/rsa.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/rsa.c -o CMakeFiles/mbedcrypto.dir/rsa.c.s
 
 library/CMakeFiles/mbedcrypto.dir/rsa.c.o.requires:
 
@@ -1618,17 +1618,17 @@ library/CMakeFiles/mbedcrypto.dir/rsa.c.o.provides.build: library/CMakeFiles/mbe
 
 
 library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c
+library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c
 
 library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c > CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c > CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.i
 
 library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c -o CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/rsa_alt_helpers.c -o CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.s
 
 library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.o.requires:
 
@@ -1642,17 +1642,17 @@ library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.o.provides.build: library/CM
 
 
 library/CMakeFiles/mbedcrypto.dir/sha1.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/sha1.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object library/CMakeFiles/mbedcrypto.dir/sha1.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/sha1.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha1.c
+library/CMakeFiles/mbedcrypto.dir/sha1.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object library/CMakeFiles/mbedcrypto.dir/sha1.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/sha1.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha1.c
 
 library/CMakeFiles/mbedcrypto.dir/sha1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/sha1.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha1.c > CMakeFiles/mbedcrypto.dir/sha1.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha1.c > CMakeFiles/mbedcrypto.dir/sha1.c.i
 
 library/CMakeFiles/mbedcrypto.dir/sha1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/sha1.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha1.c -o CMakeFiles/mbedcrypto.dir/sha1.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha1.c -o CMakeFiles/mbedcrypto.dir/sha1.c.s
 
 library/CMakeFiles/mbedcrypto.dir/sha1.c.o.requires:
 
@@ -1666,17 +1666,17 @@ library/CMakeFiles/mbedcrypto.dir/sha1.c.o.provides.build: library/CMakeFiles/mb
 
 
 library/CMakeFiles/mbedcrypto.dir/sha256.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/sha256.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object library/CMakeFiles/mbedcrypto.dir/sha256.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/sha256.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha256.c
+library/CMakeFiles/mbedcrypto.dir/sha256.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object library/CMakeFiles/mbedcrypto.dir/sha256.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/sha256.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha256.c
 
 library/CMakeFiles/mbedcrypto.dir/sha256.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/sha256.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha256.c > CMakeFiles/mbedcrypto.dir/sha256.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha256.c > CMakeFiles/mbedcrypto.dir/sha256.c.i
 
 library/CMakeFiles/mbedcrypto.dir/sha256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/sha256.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha256.c -o CMakeFiles/mbedcrypto.dir/sha256.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha256.c -o CMakeFiles/mbedcrypto.dir/sha256.c.s
 
 library/CMakeFiles/mbedcrypto.dir/sha256.c.o.requires:
 
@@ -1690,17 +1690,17 @@ library/CMakeFiles/mbedcrypto.dir/sha256.c.o.provides.build: library/CMakeFiles/
 
 
 library/CMakeFiles/mbedcrypto.dir/sha512.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/sha512.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha512.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object library/CMakeFiles/mbedcrypto.dir/sha512.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/sha512.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha512.c
+library/CMakeFiles/mbedcrypto.dir/sha512.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha512.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object library/CMakeFiles/mbedcrypto.dir/sha512.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/sha512.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha512.c
 
 library/CMakeFiles/mbedcrypto.dir/sha512.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/sha512.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha512.c > CMakeFiles/mbedcrypto.dir/sha512.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha512.c > CMakeFiles/mbedcrypto.dir/sha512.c.i
 
 library/CMakeFiles/mbedcrypto.dir/sha512.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/sha512.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/sha512.c -o CMakeFiles/mbedcrypto.dir/sha512.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/sha512.c -o CMakeFiles/mbedcrypto.dir/sha512.c.s
 
 library/CMakeFiles/mbedcrypto.dir/sha512.c.o.requires:
 
@@ -1714,17 +1714,17 @@ library/CMakeFiles/mbedcrypto.dir/sha512.c.o.provides.build: library/CMakeFiles/
 
 
 library/CMakeFiles/mbedcrypto.dir/threading.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/threading.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/threading.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object library/CMakeFiles/mbedcrypto.dir/threading.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/threading.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/threading.c
+library/CMakeFiles/mbedcrypto.dir/threading.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/threading.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object library/CMakeFiles/mbedcrypto.dir/threading.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/threading.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/threading.c
 
 library/CMakeFiles/mbedcrypto.dir/threading.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/threading.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/threading.c > CMakeFiles/mbedcrypto.dir/threading.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/threading.c > CMakeFiles/mbedcrypto.dir/threading.c.i
 
 library/CMakeFiles/mbedcrypto.dir/threading.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/threading.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/threading.c -o CMakeFiles/mbedcrypto.dir/threading.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/threading.c -o CMakeFiles/mbedcrypto.dir/threading.c.s
 
 library/CMakeFiles/mbedcrypto.dir/threading.c.o.requires:
 
@@ -1738,17 +1738,17 @@ library/CMakeFiles/mbedcrypto.dir/threading.c.o.provides.build: library/CMakeFil
 
 
 library/CMakeFiles/mbedcrypto.dir/timing.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/timing.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/timing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object library/CMakeFiles/mbedcrypto.dir/timing.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/timing.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/timing.c
+library/CMakeFiles/mbedcrypto.dir/timing.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/timing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object library/CMakeFiles/mbedcrypto.dir/timing.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/timing.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/timing.c
 
 library/CMakeFiles/mbedcrypto.dir/timing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/timing.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/timing.c > CMakeFiles/mbedcrypto.dir/timing.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/timing.c > CMakeFiles/mbedcrypto.dir/timing.c.i
 
 library/CMakeFiles/mbedcrypto.dir/timing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/timing.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/timing.c -o CMakeFiles/mbedcrypto.dir/timing.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/timing.c -o CMakeFiles/mbedcrypto.dir/timing.c.s
 
 library/CMakeFiles/mbedcrypto.dir/timing.c.o.requires:
 
@@ -1762,17 +1762,17 @@ library/CMakeFiles/mbedcrypto.dir/timing.c.o.provides.build: library/CMakeFiles/
 
 
 library/CMakeFiles/mbedcrypto.dir/version.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/version.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/version.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object library/CMakeFiles/mbedcrypto.dir/version.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/version.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/version.c
+library/CMakeFiles/mbedcrypto.dir/version.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/version.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object library/CMakeFiles/mbedcrypto.dir/version.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/version.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/version.c
 
 library/CMakeFiles/mbedcrypto.dir/version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/version.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/version.c > CMakeFiles/mbedcrypto.dir/version.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/version.c > CMakeFiles/mbedcrypto.dir/version.c.i
 
 library/CMakeFiles/mbedcrypto.dir/version.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/version.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/version.c -o CMakeFiles/mbedcrypto.dir/version.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/version.c -o CMakeFiles/mbedcrypto.dir/version.c.s
 
 library/CMakeFiles/mbedcrypto.dir/version.c.o.requires:
 
@@ -1786,17 +1786,17 @@ library/CMakeFiles/mbedcrypto.dir/version.c.o.provides.build: library/CMakeFiles
 
 
 library/CMakeFiles/mbedcrypto.dir/version_features.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/version_features.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/version_features.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object library/CMakeFiles/mbedcrypto.dir/version_features.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/version_features.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/version_features.c
+library/CMakeFiles/mbedcrypto.dir/version_features.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/version_features.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object library/CMakeFiles/mbedcrypto.dir/version_features.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/version_features.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/version_features.c
 
 library/CMakeFiles/mbedcrypto.dir/version_features.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/version_features.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/version_features.c > CMakeFiles/mbedcrypto.dir/version_features.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/version_features.c > CMakeFiles/mbedcrypto.dir/version_features.c.i
 
 library/CMakeFiles/mbedcrypto.dir/version_features.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/version_features.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/version_features.c -o CMakeFiles/mbedcrypto.dir/version_features.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/version_features.c -o CMakeFiles/mbedcrypto.dir/version_features.c.s
 
 library/CMakeFiles/mbedcrypto.dir/version_features.c.o.requires:
 
@@ -1810,17 +1810,17 @@ library/CMakeFiles/mbedcrypto.dir/version_features.c.o.provides.build: library/C
 
 
 library/CMakeFiles/mbedcrypto.dir/xtea.c.o: library/CMakeFiles/mbedcrypto.dir/flags.make
-library/CMakeFiles/mbedcrypto.dir/xtea.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/xtea.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object library/CMakeFiles/mbedcrypto.dir/xtea.c.o"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/xtea.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/xtea.c
+library/CMakeFiles/mbedcrypto.dir/xtea.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/xtea.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object library/CMakeFiles/mbedcrypto.dir/xtea.c.o"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedcrypto.dir/xtea.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/xtea.c
 
 library/CMakeFiles/mbedcrypto.dir/xtea.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedcrypto.dir/xtea.c.i"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/xtea.c > CMakeFiles/mbedcrypto.dir/xtea.c.i
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/xtea.c > CMakeFiles/mbedcrypto.dir/xtea.c.i
 
 library/CMakeFiles/mbedcrypto.dir/xtea.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedcrypto.dir/xtea.c.s"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library/xtea.c -o CMakeFiles/mbedcrypto.dir/xtea.c.s
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library/xtea.c -o CMakeFiles/mbedcrypto.dir/xtea.c.s
 
 library/CMakeFiles/mbedcrypto.dir/xtea.c.o.requires:
 
@@ -1989,8 +1989,8 @@ library/libmbedcrypto.so: library/CMakeFiles/mbedcrypto.dir/version_features.c.o
 library/libmbedcrypto.so: library/CMakeFiles/mbedcrypto.dir/xtea.c.o
 library/libmbedcrypto.so: library/CMakeFiles/mbedcrypto.dir/build.make
 library/libmbedcrypto.so: library/CMakeFiles/mbedcrypto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking C shared library libmbedcrypto.so"
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbedcrypto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking C shared library libmbedcrypto.so"
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbedcrypto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 library/CMakeFiles/mbedcrypto.dir/build: library/libmbedcrypto.so
@@ -2075,10 +2075,10 @@ library/CMakeFiles/mbedcrypto.dir/requires: library/CMakeFiles/mbedcrypto.dir/xt
 .PHONY : library/CMakeFiles/mbedcrypto.dir/requires
 
 library/CMakeFiles/mbedcrypto.dir/clean:
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedcrypto.dir/cmake_clean.cmake
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedcrypto.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/mbedcrypto.dir/clean
 
 library/CMakeFiles/mbedcrypto.dir/depend:
-	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/library /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/library /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/mbedcrypto.dir/depend
 

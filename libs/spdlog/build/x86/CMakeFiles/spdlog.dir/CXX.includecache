@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/async.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/async.h
 spdlog/async_logger.h
 -
 spdlog/details/registry.h
@@ -20,7 +20,7 @@ mutex
 functional
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
 spdlog/async_logger.h
 -
 spdlog/sinks/sink.h
@@ -32,13 +32,13 @@ memory
 string
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/async_logger.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/async_logger.h
 spdlog/logger.h
 -
 async_logger-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
 spdlog/cfg/helpers.h
 -
 spdlog/spdlog.h
@@ -56,15 +56,15 @@ utility
 sstream
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/cfg/helpers.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/cfg/helpers.h
 spdlog/common.h
 -
 unordered_map
 -
 helpers-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/common-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/common-inl.h
 spdlog/common.h
 -
 algorithm
@@ -72,7 +72,7 @@ algorithm
 iterator
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/common.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/common.h
 spdlog/tweakme.h
 -
 spdlog/details/null_mutex.h
@@ -96,13 +96,13 @@ functional
 spdlog/fmt/fmt.h
 -
 common-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/common-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/common-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
 spdlog/details/backtracer.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/backtracer.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/backtracer.h
 spdlog/details/log_msg_buffer.h
 -
 spdlog/details/circular_q.h
@@ -114,21 +114,21 @@ mutex
 functional
 -
 backtracer-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/circular_q.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/circular_q.h
 vector
 -
 cassert
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/console_globals.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/console_globals.h
 spdlog/details/null_mutex.h
 -
 mutex
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
 spdlog/details/file_helper.h
 -
 spdlog/details/os.h
@@ -148,15 +148,15 @@ thread
 tuple
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/file_helper.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/file_helper.h
 spdlog/common.h
 -
 tuple
 -
 file_helper-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/fmt_helper.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/fmt_helper.h
 chrono
 -
 type_traits
@@ -166,31 +166,31 @@ spdlog/fmt/fmt.h
 spdlog/common.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
 spdlog/details/log_msg.h
 -
 spdlog/details/os.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/log_msg.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/log_msg.h
 spdlog/common.h
 -
 string
 -
 log_msg-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
 spdlog/details/log_msg_buffer.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer.h
 spdlog/details/log_msg.h
 -
 log_msg_buffer-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/mpmc_blocking_q.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/mpmc_blocking_q.h
 spdlog/details/circular_q.h
 -
 condition_variable
@@ -198,13 +198,13 @@ condition_variable
 mutex
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/null_mutex.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/null_mutex.h
 atomic
 -
 utility
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
 spdlog/details/os.h
 -
 spdlog/common.h
@@ -258,19 +258,19 @@ lwp.h
 thread.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/os.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/os.h
 spdlog/common.h
 -
 ctime
 -
 os-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
 spdlog/details/periodic_worker.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/periodic_worker.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/periodic_worker.h
 chrono
 -
 condition_variable
@@ -282,9 +282,9 @@ mutex
 thread
 -
 periodic_worker-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
 spdlog/details/registry.h
 -
 spdlog/common.h
@@ -310,7 +310,7 @@ string
 unordered_map
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/registry.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/registry.h
 spdlog/common.h
 -
 chrono
@@ -326,13 +326,13 @@ unordered_map
 mutex
 -
 registry-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/synchronous_factory.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/synchronous_factory.h
 registry.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/registry.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/registry.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
 spdlog/details/thread_pool.h
 -
 spdlog/common.h
@@ -340,7 +340,7 @@ spdlog/common.h
 cassert
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/thread_pool.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/thread_pool.h
 spdlog/details/log_msg_buffer.h
 -
 spdlog/details/mpmc_blocking_q.h
@@ -360,13 +360,13 @@ functional
 spdlog/details/log_msg_buffer.h
 -
 thread_pool-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/details/windows_include.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/details/windows_include.h
 windows.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
 cstdio
 -
 cstring
@@ -390,7 +390,7 @@ experimental/string_view
 fmt/core.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
 cassert
 -
 cctype
@@ -412,9 +412,9 @@ locale
 io.h
 -
 format.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
 algorithm
 -
 cerrno
@@ -430,15 +430,15 @@ memory
 stdexcept
 -
 core.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
 intrin.h
 -
 fmt/format.h
 -
 format-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/fmt/fmt.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/fmt/fmt.h
 spdlog/fmt/bundled/core.h
 -
 spdlog/fmt/bundled/format.h
@@ -448,13 +448,13 @@ fmt/core.h
 fmt/format.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/formatter.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/formatter.h
 spdlog/fmt/fmt.h
 -
 spdlog/details/log_msg.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/logger-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/logger-inl.h
 spdlog/logger.h
 -
 spdlog/sinks/sink.h
@@ -466,7 +466,7 @@ spdlog/pattern_formatter.h
 cstdio
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/logger.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/logger.h
 spdlog/common.h
 -
 spdlog/details/log_msg.h
@@ -478,9 +478,9 @@ spdlog/details/os.h
 vector
 -
 logger-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/logger-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/logger-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
 spdlog/pattern_formatter.h
 -
 spdlog/details/fmt_helper.h
@@ -520,7 +520,7 @@ utility
 vector
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/pattern_formatter.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/pattern_formatter.h
 spdlog/common.h
 -
 spdlog/details/log_msg.h
@@ -542,9 +542,9 @@ vector
 unordered_map
 -
 pattern_formatter-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
 spdlog/sinks/ansicolor_sink.h
 -
 spdlog/pattern_formatter.h
@@ -552,7 +552,7 @@ spdlog/pattern_formatter.h
 spdlog/details/os.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink.h
 spdlog/details/console_globals.h
 -
 spdlog/details/null_mutex.h
@@ -568,9 +568,9 @@ string
 array
 -
 ansicolor_sink-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
 spdlog/sinks/base_sink.h
 -
 spdlog/common.h
@@ -580,7 +580,7 @@ spdlog/pattern_formatter.h
 memory
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/base_sink.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/base_sink.h
 spdlog/common.h
 -
 spdlog/details/log_msg.h
@@ -588,9 +588,9 @@ spdlog/details/log_msg.h
 spdlog/sinks/sink.h
 -
 base_sink-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
 spdlog/sinks/basic_file_sink.h
 -
 spdlog/common.h
@@ -598,7 +598,7 @@ spdlog/common.h
 spdlog/details/os.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink.h
 spdlog/details/file_helper.h
 -
 spdlog/details/null_mutex.h
@@ -612,9 +612,9 @@ mutex
 string
 -
 basic_file_sink-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
 spdlog/sinks/rotating_file_sink.h
 -
 spdlog/common.h
@@ -638,7 +638,7 @@ string
 tuple
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink.h
 spdlog/sinks/base_sink.h
 -
 spdlog/details/file_helper.h
@@ -654,23 +654,23 @@ mutex
 string
 -
 rotating_file_sink-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
 spdlog/sinks/sink.h
 -
 spdlog/common.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/sink.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/sink.h
 spdlog/details/log_msg.h
 -
 spdlog/formatter.h
 -
 sink-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
 spdlog/sinks/stdout_color_sinks.h
 -
 spdlog/logger.h
@@ -678,7 +678,7 @@ spdlog/logger.h
 spdlog/common.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks.h
 spdlog/sinks/wincolor_sink.h
 -
 spdlog/sinks/ansicolor_sink.h
@@ -686,9 +686,9 @@ spdlog/sinks/ansicolor_sink.h
 spdlog/details/synchronous_factory.h
 -
 stdout_color_sinks-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks-inl.h
 spdlog/sinks/stdout_sinks.h
 -
 spdlog/details/console_globals.h
@@ -706,7 +706,7 @@ io.h
 stdio.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks.h
 spdlog/details/console_globals.h
 -
 spdlog/details/synchronous_factory.h
@@ -718,9 +718,9 @@ cstdio
 spdlog/details/windows_include.h
 -
 stdout_sinks-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/stdout_sinks-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 spdlog/sinks/wincolor_sink.h
 -
 spdlog/details/windows_include.h
@@ -732,7 +732,7 @@ spdlog/common.h
 spdlog/pattern_formatter.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink.h
 spdlog/common.h
 -
 spdlog/details/console_globals.h
@@ -752,9 +752,9 @@ array
 cstdint
 -
 wincolor_sink-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
 spdlog/spdlog.h
 -
 spdlog/common.h
@@ -762,7 +762,7 @@ spdlog/common.h
 spdlog/pattern_formatter.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/spdlog.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/spdlog.h
 spdlog/common.h
 -
 spdlog/details/registry.h
@@ -782,13 +782,13 @@ memory
 string
 -
 spdlog-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/tweakme.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/tweakme.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/include/spdlog/version.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/include/spdlog/version.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/src/async.cpp
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/src/async.cpp
 spdlog/async.h
 -
 spdlog/async_logger-inl.h
@@ -798,11 +798,11 @@ spdlog/details/periodic_worker-inl.h
 spdlog/details/thread_pool-inl.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/src/cfg.cpp
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/src/cfg.cpp
 spdlog/cfg/helpers-inl.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/src/color_sinks.cpp
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/src/color_sinks.cpp
 mutex
 -
 spdlog/details/null_mutex.h
@@ -812,11 +812,11 @@ spdlog/async.h
 spdlog/sinks/wincolor_sink-inl.h
 -
 spdlog/sinks/ansicolor_sink-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/src/spdlog/sinks/ansicolor_sink-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/src/spdlog/sinks/ansicolor_sink-inl.h
 spdlog/sinks/stdout_color_sinks-inl.h
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/src/spdlog/sinks/stdout_color_sinks-inl.h
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/src/spdlog/sinks/stdout_color_sinks-inl.h
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/src/file_sinks.cpp
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/src/file_sinks.cpp
 spdlog/details/null_mutex.h
 -
 spdlog/details/file_helper-inl.h
@@ -830,11 +830,11 @@ mutex
 spdlog/sinks/rotating_file_sink-inl.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/src/fmt.cpp
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/src/fmt.cpp
 spdlog/fmt/bundled/format-inl.h
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/src/spdlog.cpp
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/src/spdlog.cpp
 spdlog/spdlog-inl.h
 -
 spdlog/common-inl.h
@@ -862,7 +862,7 @@ spdlog/details/null_mutex.h
 mutex
 -
 
-/media/hdd2/RPO_labs/LR1/libs/spdlog/spdlog/src/stdout_sinks.cpp
+/media/hdd2/RPO_labs/LR3/libs/spdlog/spdlog/src/stdout_sinks.cpp
 mutex
 -
 spdlog/details/null_mutex.h
