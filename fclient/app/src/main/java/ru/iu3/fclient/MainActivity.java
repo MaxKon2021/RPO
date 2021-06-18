@@ -13,8 +13,16 @@ import android.widget.Toast;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
+import org.apache.commons.io.IOUtils;
 
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import javax.net.ssl.HttpsURLConnection;
 
 import ru.iu3.fclient.databinding.ActivityMainBinding;
 
@@ -33,10 +41,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onButtonClick(View v)
     {
-      // Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
-        Intent it = new Intent(this,PinpadActivity.class);
-        startActivityForResult(it, 0);
-
+      //Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
+       // Intent it = new Intent(this,PinpadActivity.class);
+      //  startActivityForResult(it, 0);
+        Log.e("BTN_log", "Pressed");
+        TestHttpClient();
     }
 
 
@@ -96,10 +105,70 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // HTTP TEST
+    protected void TestHttpClient()
+    {
+        new Thread(() -> {
+            try {
+             // HttpsURLConnection uc = (HttpsURLConnection) (new URL("https://ru.wikipedia.org").openConnection());
+              HttpURLConnection uc = (HttpURLConnection) (new URL("http://10.0.2.2:8080/api/v1/title").openConnection());
+                InputStream inputStream = uc.getInputStream();
+                String html = IOUtils.toString(inputStream);
+                String title = getPageTitle(html);
+                runOnUiThread(() ->
+                {
+                    Toast.makeText(this, title, Toast.LENGTH_SHORT).show();
+                    Log.e("Title_output", title);
+                });
+            }
+            catch (Exception ex) {
+                Log.e("fapptag", "Https client fails", ex);
+            }
+        }).start();
+    }
+
+    private String getPageTitle(String html) {
+        int pos = html.indexOf("<title");
+        String p = "not found";
+        if (pos >= 0)
+        {
+            int pos2 = html.indexOf("<", pos + 1);
+            if (pos >= 0)
+            {
+                p = html.substring(pos + 7, pos2);
+            }
+        }
+        return p;
+    }
+/*
+    private String getPageTitle(String html) {
+        Pattern pattern = Pattern.compile("<title>(.+?)</title>", Pattern.DOTALL);
+        Matcher matcher = pattern.matcher(html);
+        String p;
+        if (matcher.find())
+            p = matcher.group(1);
+        else
+            p = "Not found";
+        return p;
+    }
+
+ */
     /**
      * A native method that is implemented by the 'native-lib' native library,
      * which is packaged with this application.
      */
+
+
+
+
+
+
+
+
+
+
+
+
     public native String stringFromJNI();
     public static native int initRng();
     public static native byte[] randomBytes(int no);

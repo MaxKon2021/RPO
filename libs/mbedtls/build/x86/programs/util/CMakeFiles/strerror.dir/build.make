@@ -43,10 +43,10 @@ RM = /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86
 
 # Include any dependencies generated for this target.
 include programs/util/CMakeFiles/strerror.dir/depend.make
@@ -58,17 +58,17 @@ include programs/util/CMakeFiles/strerror.dir/progress.make
 include programs/util/CMakeFiles/strerror.dir/flags.make
 
 programs/util/CMakeFiles/strerror.dir/strerror.c.o: programs/util/CMakeFiles/strerror.dir/flags.make
-programs/util/CMakeFiles/strerror.dir/strerror.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/programs/util/strerror.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object programs/util/CMakeFiles/strerror.dir/strerror.c.o"
-	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/programs/util && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/strerror.dir/strerror.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/programs/util/strerror.c
+programs/util/CMakeFiles/strerror.dir/strerror.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/programs/util/strerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object programs/util/CMakeFiles/strerror.dir/strerror.c.o"
+	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/programs/util && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/strerror.dir/strerror.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/programs/util/strerror.c
 
 programs/util/CMakeFiles/strerror.dir/strerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strerror.dir/strerror.c.i"
-	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/programs/util && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/programs/util/strerror.c > CMakeFiles/strerror.dir/strerror.c.i
+	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/programs/util && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/programs/util/strerror.c > CMakeFiles/strerror.dir/strerror.c.i
 
 programs/util/CMakeFiles/strerror.dir/strerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strerror.dir/strerror.c.s"
-	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/programs/util && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/programs/util/strerror.c -o CMakeFiles/strerror.dir/strerror.c.s
+	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/programs/util && /home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/programs/util/strerror.c -o CMakeFiles/strerror.dir/strerror.c.s
 
 programs/util/CMakeFiles/strerror.dir/strerror.c.o.requires:
 
@@ -87,22 +87,22 @@ strerror_OBJECTS = \
 
 # External object files for target strerror
 strerror_EXTERNAL_OBJECTS = \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/random.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o" \
-"/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o"
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/random.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o" \
+"/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o"
 
 programs/util/strerror: programs/util/CMakeFiles/strerror.dir/strerror.c.o
 programs/util/strerror: CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o
@@ -124,8 +124,8 @@ programs/util/strerror: CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_drive
 programs/util/strerror: programs/util/CMakeFiles/strerror.dir/build.make
 programs/util/strerror: library/libmbedcrypto.so
 programs/util/strerror: programs/util/CMakeFiles/strerror.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable strerror"
-	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/programs/util && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/strerror.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable strerror"
+	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/programs/util && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/strerror.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 programs/util/CMakeFiles/strerror.dir/build: programs/util/strerror
@@ -137,10 +137,10 @@ programs/util/CMakeFiles/strerror.dir/requires: programs/util/CMakeFiles/strerro
 .PHONY : programs/util/CMakeFiles/strerror.dir/requires
 
 programs/util/CMakeFiles/strerror.dir/clean:
-	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/programs/util && $(CMAKE_COMMAND) -P CMakeFiles/strerror.dir/cmake_clean.cmake
+	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/programs/util && $(CMAKE_COMMAND) -P CMakeFiles/strerror.dir/cmake_clean.cmake
 .PHONY : programs/util/CMakeFiles/strerror.dir/clean
 
 programs/util/CMakeFiles/strerror.dir/depend:
-	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/programs/util /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/programs/util /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/programs/util/CMakeFiles/strerror.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/programs/util /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/programs/util /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/programs/util/CMakeFiles/strerror.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : programs/util/CMakeFiles/strerror.dir/depend
 

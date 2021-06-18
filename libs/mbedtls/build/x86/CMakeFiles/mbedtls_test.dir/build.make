@@ -43,10 +43,10 @@ RM = /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mbedtls_test.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/mbedtls_test.dir/progress.make
 include CMakeFiles/mbedtls_test.dir/flags.make
 
 CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/asn1_helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/asn1_helpers.c
+CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/asn1_helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/asn1_helpers.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/asn1_helpers.c > CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/asn1_helpers.c > CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/asn1_helpers.c -o CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/asn1_helpers.c -o CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o.provides.build: CMakeFile
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/certs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/certs.c
+CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/certs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/certs.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/certs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/certs.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/certs.c > CMakeFiles/mbedtls_test.dir/tests/src/certs.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/certs.c > CMakeFiles/mbedtls_test.dir/tests/src/certs.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/certs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/certs.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/certs.c -o CMakeFiles/mbedtls_test.dir/tests/src/certs.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/certs.c -o CMakeFiles/mbedtls_test.dir/tests/src/certs.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o.provides.build: CMakeFiles/mbedt
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c
+CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c > CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c > CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c -o CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c -o CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o.provides.bu
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/helpers.c
+CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/helpers.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/helpers.c > CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/helpers.c > CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/helpers.c -o CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/helpers.c -o CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o.provides.build: CMakeFiles/mbe
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c
+CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c > CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c > CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c -o CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c -o CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o.provides.build: CMa
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c
+CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c > CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c > CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c -o CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/psa_exercise_key.c -o CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o.provides.build: CMake
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/random.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/random.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/random.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/random.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/random.c
+CMakeFiles/mbedtls_test.dir/tests/src/random.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/random.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/random.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/random.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/random.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/random.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/random.c > CMakeFiles/mbedtls_test.dir/tests/src/random.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/random.c > CMakeFiles/mbedtls_test.dir/tests/src/random.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/random.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/random.c -o CMakeFiles/mbedtls_test.dir/tests/src/random.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/random.c -o CMakeFiles/mbedtls_test.dir/tests/src/random.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/random.c.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/random.c.o.provides.build: CMakeFiles/mbed
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/threading_helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/threading_helpers.c
+CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/threading_helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/threading_helpers.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/threading_helpers.c > CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/threading_helpers.c > CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/threading_helpers.c -o CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/threading_helpers.c -o CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o.provides.build: CMak
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/hash.c
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/hash.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/hash.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/hash.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/hash.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/hash.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o.requires:
 
@@ -274,17 +274,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o.provides.build: CMakeFile
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/platform_builtin_keys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/platform_builtin_keys.c
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/platform_builtin_keys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/platform_builtin_keys.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/platform_builtin_keys.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/platform_builtin_keys.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/platform_builtin_keys.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/platform_builtin_keys.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o.requires:
 
@@ -298,17 +298,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o.provides
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_aead.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_aead.c
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_aead.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_aead.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_aead.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_aead.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_aead.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_aead.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o.requires:
 
@@ -322,17 +322,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o.provides.buil
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_cipher.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_cipher.c
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_cipher.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_cipher.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_cipher.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_cipher.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_cipher.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_cipher.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o.requires:
 
@@ -346,17 +346,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o.provides.bu
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_key_management.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_key_management.c
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_key_management.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_key_management.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_key_management.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_key_management.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_key_management.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_key_management.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o.requires:
 
@@ -370,17 +370,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o.pro
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_mac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_mac.c
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_mac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_mac.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_mac.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_mac.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_mac.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_mac.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o.requires:
 
@@ -394,17 +394,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o.provides.build
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_signature.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o.requires:
 
@@ -418,17 +418,17 @@ CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o.provides
 
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o: CMakeFiles/mbedtls_test.dir/flags.make
-CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o   -c /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_size.c
+CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o"
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o   -c /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_size.c
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.i"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_size.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.i
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_size.c > CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.i
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.s"
-	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_size.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.s
+	/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/anastasia/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/tests/src/drivers/test_driver_size.c -o CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.s
 
 CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_size.c.o.requires:
 
@@ -490,6 +490,6 @@ CMakeFiles/mbedtls_test.dir/clean:
 .PHONY : CMakeFiles/mbedtls_test.dir/clean
 
 CMakeFiles/mbedtls_test.dir/depend:
-	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mbedtls_test.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls
+# Install script for directory: /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/include/cmake_install.cmake")
-  include("/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/3rdparty/cmake_install.cmake")
-  include("/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/library/cmake_install.cmake")
-  include("/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/programs/cmake_install.cmake")
+  include("/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/include/cmake_install.cmake")
+  include("/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/3rdparty/cmake_install.cmake")
+  include("/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/library/cmake_install.cmake")
+  include("/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/programs/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

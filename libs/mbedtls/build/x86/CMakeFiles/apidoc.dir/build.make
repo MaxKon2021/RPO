@@ -43,10 +43,10 @@ RM = /home/anastasia/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86
 
 # Utility rule file for apidoc.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86
 include CMakeFiles/apidoc.dir/progress.make
 
 CMakeFiles/apidoc:
-	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/doxygen && doxygen mbedtls.doxyfile
+	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/doxygen && doxygen mbedtls.doxyfile
 
 apidoc: CMakeFiles/apidoc
 apidoc: CMakeFiles/apidoc.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/apidoc.dir/clean:
 .PHONY : CMakeFiles/apidoc.dir/clean
 
 CMakeFiles/apidoc.dir/depend:
-	cd /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR3/libs/mbedtls/build/x86/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86 /media/hdd2/RPO_labs/LR1/libs/mbedtls/build/x86/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/apidoc.dir/depend
 

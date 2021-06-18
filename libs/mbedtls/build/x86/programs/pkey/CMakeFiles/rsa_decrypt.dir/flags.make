@@ -6,5 +6,5 @@ C_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fsta
 
 C_DEFINES = 
 
-C_INCLUDES = -I/media/hdd2/RPO_labs/LR3/libs/mbedtls/mbedtls/include 
+C_INCLUDES = -I/media/hdd2/RPO_labs/LR1/libs/mbedtls/mbedtls/include 
 
